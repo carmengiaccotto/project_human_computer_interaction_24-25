@@ -40,4 +40,6 @@ Per comprendere al meglio le esigenze del target, il team condurrà interviste c
 ### Survey:
 È stata creata una survey per raccogliere dati sulle preferenze e sulle barriere che i giovani incontrano durante le visite ai musei. Le risposte contribuiranno alla personalizzazione dell’app e alla creazione di un’esperienza museale innovativa.
 
+[Clicca qui per accedere al form.](https://g9dzinv68sa.typeform.com/to/GA28hC7C)
+
 ---
