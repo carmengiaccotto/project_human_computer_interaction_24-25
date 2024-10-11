@@ -3,6 +3,9 @@
 \usepackage[italian]{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{pgf-pie} % Pacchetto per grafici a torta
+\usepackage{lscape} % Per pagine orizzontali
+\usepackage{caption} % Per personalizzare le didascalie
 
 \title{Deadline 1 – Needfinding}
 \author{Mattia Colombo, Carmen Giaccotto, Alessia Franchetti-Rosada \\Federico Previtali, Manoueil Michael Halim Riad Hanna \\ Valentina Petrignano, Michele Arrigoni}
@@ -79,6 +82,10 @@ Durante le interviste sono stati utilizzati:
 
 Abbiamo distribuito un sondaggio per raccogliere dati preliminari sugli utenti, in particolare adolescenti e giovani adulti. I risultati ci hanno fornito un quadro utile delle loro esperienze con i musei e delle loro aspettative.
 
+\subsection{Link al questionario}
+
+Il questionario completo può essere consultato al seguente link: \url{https://bit.ly/4eu3ox7}
+
 \subsection{Demografia dei Partecipanti}
 
 Il sondaggio ha coinvolto principalmente partecipanti di età compresa tra i 16-19 anni e oltre i 20 anni, con una rappresentanza femminile predominante. La maggior parte dei partecipanti risiede in piccole città o paesi, sebbene ci siano stati anche rispondenti provenienti da aree urbane.
@@ -94,6 +101,50 @@ Diversi partecipanti hanno offerto suggerimenti per migliorare l'esperienza muse
 \subsection{Disponibilità a Partecipare a Ulteriori Interviste}
 
 Abbiamo anche chiesto ai partecipanti se fossero disposti a rispondere a ulteriori domande o a partecipare a interviste individuali. La maggior parte ha preferito non essere contattata, anche se alcuni hanno lasciato i loro contatti per un coinvolgimento futuro.
+
+\section{Logica del form}
+
+\vspace*{\fill}
+\begin{center}
+    \includegraphics[width=\textwidth]{form_logic.png} % Immagine della logica del form (da inserire)
+\end{center}
+\vspace*{\fill}
+\newpage
+
+\section{Foto Affinity Diagram Esercitazione}
+
+\vspace*{\fill}
+\begin{center}
+    \includegraphics[width=\textwidth]{affinity_diagram.png} % Spazio per foto Affinity Diagram
+\end{center}
+\vspace*{\fill}
+\newpage
+
+\section{Grafici a Torta per i Dati del Survey}
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \pie[text=legend, radius=3, color={red!30, blue!30, green!30, yellow!30}]{
+            40/16-19 anni,
+            35/20-25 anni,
+            25/Oltre 25 anni
+        }
+    \end{tikzpicture}
+    \caption{Distribuzione dell'età dei partecipanti.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \pie[text=legend, radius=3, color={red!50, blue!50}]{
+            60/3-5 visite,
+            40/Più di 5 visite
+        }
+    \end{tikzpicture}
+    \caption{Frequenza di visita ai musei negli ultimi 12 mesi.}
+\end{figure}
+\newpage
 
 \section{Sintesi}
 
