@@ -17,10 +17,10 @@
 - Michele Arrigoni
 
 ### Descrizione del Progetto:
-La nostra missione consiste nell’esplorare e sviluppare soluzioni innovative che uniscano tecnologia e cultura, con l’obiettivo di rendere l’arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni) e promuovere una cittadinanza più consapevole e partecipativa.
+Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura, con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
 ### Problema:
-L'esperienza museale tradizionale può risultare poco attraente per gli adolescenti. Spesso, la visita richiede passaggi complessi come la creazione di più account per l'acquisto di biglietti o l'accesso alle audioguide. Inoltre, molti musei tendono a trascurare opere meno note o zone meno frequentate, che restano nascoste rispetto ai percorsi turistici convenzionali.
+L'esperienza museale tradizionale spesso risulta poco attraente per gli adolescenti per diversi motivi. La mancanza di interattività e di attività mirate ai loro interessi rende difficile catturare la loro attenzione e stimolare la loro curiosità verso l'arte e la cultura. I musei raramente integrano strumenti didattici innovativi e inclusivi, limitando così l'opportunità di promuovere una partecipazione attiva dei giovani. Spesso sono inoltre assenti elementi di gamification e non esiste la possibilità di personalizzare l'esperienza. Le barriere pratiche, come la necessità di creare account multipli per l'acquisto di biglietti o l'accesso alle audioguide, rendono il processo macchinoso e poco accessibile e può scoraggia gli adolescenti dal visitare i musei.
 
 ### Missione:
 1. **Inclusione e Educazione Innovativa:** Integrare le visite museali con il sistema scolastico, offrendo strumenti didattici innovativi e inclusivi per promuovere la partecipazione degli adolescenti alla cultura. Offrire esperienze che stimolino il loro interesse per l'arte, migliorando il benessere mentale e sociale.
