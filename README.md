@@ -33,6 +33,6 @@ L'esperienza museale tradizionale spesso risulta poco attraente per i giovani pe
  - Questa attività ha l'obiettivo di osservare e comprendere come gli adolescenti eseguono le attività che il nuovo sistema interattivo intende supportare. Il team si è focalizzato sull’analisi degli obiettivi degli utenti e delle loro pratiche, per generare intuizioni progettuali significative e definire i requisiti per lo sviluppo del sistema. Per meglio comprendere le esigenze del nostro target, il team ha condotto interviste con adolescenti e operatori museali.
 È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGTSNj9lJg/yVSnIUh4KBzx_JAO72yTgw/edit?utm_content=DAGTSNj9lJg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
 
-- È stato stilato un paper in cui i risultati sono stati raccolti in maniera più approfondita e dettagliata. Clicca **qui** per accedervi.
+- È stato stilato un paper in cui i risultati sono stati raccolti in maniera più approfondita e dettagliata. Clicca [**qui**](https://github.com/carmengiaccotto/project_human_computer_interaction_24-25/blob/main/C1/docs/report/final_report_needfinding.pdf) per accedervi.
 
 - È stata inoltre creata una survey per raccogliere dati sulle preferenze e sulle barriere che i giovani incontrano durante le visite ai musei. Clicca [**qui**](https://g9dzinv68sa.typeform.com/to/GA28hC7C) per accedere al form.
