@@ -1,0 +1,375 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{pgf-pie} % Pacchetto per grafici a torta
+\usepackage{lscape} % Per pagine orizzontali
+\usepackage{caption} % Per personalizzare le didascalie
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{enumitem} % Per liste personalizzate
+\definecolor{colore1}{HTML}{725A4A}
+\definecolor{colore2}{HTML}{472C19}
+\definecolor{colore3}{HTML}{A46F4C}
+\definecolor{colore4}{HTML}{C8C4BD}
+
+\title{Compito 2 – Raffinamento e Focus}
+\author{Mattia Colombo, Carmen Giaccotto, Alessia Franchetti-Rosada \\Federico Previtali, Manoueil Michael Halim Riad Hanna \\ Valentina Petrignano, Michele Arrigoni}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Lista Consolidata dei Bisogni degli Utenti}
+
+Dopo aver analizzato le discussioni dei focus group, abbiamo identificato diversi bisogni chiave degli utenti. Questi bisogni sono raggruppati in categorie tematiche per chiarezza. Ogni bisogno è collegato a interviste specifiche e alle risposte dei partecipanti \textbf{Giulia}, \textbf{Matteo}, \textbf{Sofia} e \textbf{Alessandro}.
+
+\section{Esperienze Interattive e Immersive}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Giochi e Attività Interattive}
+
+\begin{itemize}
+    \item \textbf{Giulia (Esperienze Interattive e Immersive)}:\\
+    ``Mi piacerebbe che ci fossero giochi interattivi durante la visita, come quiz o cacce al tesoro legate alle opere esposte.''
+    \item \textbf{Alessandro (Apprendimento Coinvolgente)}:\\
+    ``Offrire attività di gruppo o sfide con amici per aumentare il coinvolgimento.''
+\end{itemize}
+
+\subsubsection{Esperienze di Realtà Aumentata e Virtuale}
+
+\begin{itemize}
+    \item \textbf{Matteo (Esperienze Interattive e Immersive)}:\\
+    ``Sarebbe interessante avere la possibilità di interagire direttamente con le opere attraverso la realtà aumentata o virtuale.''
+    \item \textbf{Giulia (Integrazione di Visite Virtuali)}:\\
+    ``Vorrei esplorare siti storici che non esistono più o che sono inaccessibili. La realtà virtuale potrebbe riportarli in vita.''
+    \item \textbf{Sofia (Uso della Tecnologia nei Musei)}:\\
+    ``Mi piacerebbe poter interagire con le opere attraverso la realtà aumentata, ad esempio visualizzando informazioni aggiuntive o animazioni.''
+\end{itemize}
+
+\subsubsection{Installazioni Interattive e Esperienze Sensoriali}
+
+\begin{itemize}
+    \item \textbf{Giulia (Esperienze Interattive e Immersive)}:\\
+    ``Mi piacerebbe che i musei offrissero installazioni interattive dove posso partecipare attivamente.''
+    \item \textbf{Alessandro (Esperienze Interattive e Immersive)}:\\
+    ``Mi piacerebbe anche poter interagire con le opere attraverso tecnologie innovative, come ologrammi o installazioni sensoriali.''
+\end{itemize}
+
+\section{Personalizzazione e Customizzazione}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Percorsi Personalizzati e Contenuti Su Misura}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Esperienze Interattive e Immersive)}:\\
+    ``Mi piacerebbe avere percorsi personalizzati basati sui miei interessi.''
+    \item \textbf{Sofia (Personalizzazione dell'Esperienza)}:\\
+    ``Poter scegliere un percorso tematico in base ai miei interessi sarebbe molto utile.''
+    \item \textbf{Matteo (Personalizzazione dell'Esperienza)}:\\
+    ``Sarebbe utile avere la possibilità di pianificare la visita in base al tempo che ho a disposizione, con percorsi ottimizzati.''
+    \item \textbf{Giulia (Personalizzazione dell'Esperienza)}:\\
+    ``Mi piacerebbe ricevere suggerimenti su opere meno conosciute ma interessanti.''
+\end{itemize}
+
+\subsubsection{Possibilità di Scegliere il Livello di Dettaglio delle Informazioni}
+
+\begin{itemize}
+    \item \textbf{Giulia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Sarebbe utile poter selezionare quanto approfondire le spiegazioni, in base al mio interesse per l'opera.''
+    \item \textbf{Sofia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``A volte vorrei più dettagli, altre volte preferisco una spiegazione breve.''
+\end{itemize}
+
+\subsubsection{Autonomia nell'Esplorazione delle Informazioni}
+
+\begin{itemize}
+    \item \textbf{Giulia (Apprendimento Coinvolgente)}:\\
+    ``Vorrei poter scegliere su cosa approfondire, in base ai miei interessi.''
+    \item \textbf{Alessandro (Apprendimento Coinvolgente)}:\\
+    ``La possibilità di esplorare liberamente renderebbe la visita più soddisfacente.''
+\end{itemize}
+
+\subsubsection{Accesso alle Informazioni Dopo la Visita}
+
+\begin{itemize}
+    \item \textbf{Sofia (Apprendimento Coinvolgente)}:\\
+    ``Sarebbe utile avere accesso alle informazioni anche dopo la visita, per rivedere ciò che ho imparato.''
+    \item \textbf{Alessandro (Personalizzazione dell'Esperienza)}:\\
+    ``Poter creare una lista delle opere che ho già visto, con la possibilità di condividere le mie impressioni con altri visitatori.''
+\end{itemize}
+
+\section{Uso Avanzato della Tecnologia}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Strumenti Digitali Moderni e Intuitivi}
+
+\begin{itemize}
+    \item \textbf{Matteo (Uso della Tecnologia nei Musei)}:\\
+    ``La tecnologia dovrebbe facilitare l'accesso alle informazioni, ma attualmente è poco sviluppata o difficile da utilizzare.''
+\end{itemize}
+
+\subsubsection{Mappe Interattive Digitali e Guide Personalizzate}
+
+\begin{itemize}
+    \item \textbf{Matteo (Uso della Tecnologia nei Musei)}:\\
+    ``Mi piacerebbe avere mappe interattive digitali che mi aiutino a orientarmi nel museo.''
+    \item \textbf{Giulia (Uso della Tecnologia nei Musei)}:\\
+    ``Vorrei avere audioguide personalizzate disponibili sui miei dispositivi, con contenuti adattati ai miei interessi.''
+\end{itemize}
+
+\subsubsection{Notifiche e Aggiornamenti su Eventi}
+
+\begin{itemize}
+    \item \textbf{Sofia (Uso della Tecnologia nei Musei)}:\\
+    ``Sarebbe utile ricevere notifiche su eventi o mostre nelle vicinanze, in base ai miei gusti.''
+\end{itemize}
+
+\subsubsection{Semplificazione dell'Acquisto dei Biglietti e Pianificazione}
+
+\begin{itemize}
+    \item \textbf{Sofia (Semplificazione dell'Accesso)}:\\
+    ``Mi piacerebbe poter acquistare i biglietti per più musei da un'unica piattaforma.''
+    \item \textbf{Giulia (Semplificazione dell'Accesso)}:\\
+    ``Sarebbe utile avere un sistema centralizzato dove posso acquistare i biglietti e pianificare la visita.''
+    \item \textbf{Matteo (Semplificazione dell'Accesso)}:\\
+    ``Un aggregatore che mi permetta di gestire tutto da un unico punto sarebbe molto comodo.''
+    \item \textbf{Alessandro (Semplificazione dell'Accesso)}:\\
+    ``Se potessi acquistare e pianificare tutto in anticipo da un'unica piattaforma, eviterei questi problemi.''
+\end{itemize}
+
+\subsubsection{Informazioni in Tempo Reale sulla Logistica del Museo}
+
+\begin{itemize}
+    \item \textbf{Sofia (Semplificazione dell'Accesso)}:\\
+    ``La tecnologia potrebbe fornire informazioni aggiornate su orari, prezzi e affluenza, aiutandomi a pianificare meglio la visita.''
+\end{itemize}
+
+\subsubsection{Interazione con le Opere Tramite Tecnologia}
+
+\begin{itemize}
+    \item \textbf{Matteo (Uso della Tecnologia nei Musei)}:\\
+    ``Mi piacerebbe poter interagire con le opere attraverso la realtà aumentata.''
+    \item \textbf{Giulia (Esperienze Interattive e Immersive)}:\\
+    ``Installazioni interattive dove posso partecipare attivamente.''
+\end{itemize}
+
+\section{Ricompense e Incentivi}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Sistemi di Punti e Premi Digitali}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Uso della Tecnologia nei Musei)}:\\
+    ``Mi piacerebbe un sistema che accumula punti o offre premi digitali per incentivare le visite.''
+    \item \textbf{Matteo (Personalizzazione dell'Esperienza)}:\\
+    ``Se ci fossero incentivi come premi virtuali o riconoscimenti per chi visita determinate aree meno battute.''
+\end{itemize}
+
+\subsubsection{Sblocco di Contenuti Speciali}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Personalizzazione dell'Esperienza)}:\\
+    ``Poter sbloccare contenuti speciali o ottenere vantaggi visitando queste aree sarebbe un buon incentivo.''
+\end{itemize}
+
+\section{Coinvolgimento Attraverso i Social Media}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Presenza Attiva dei Musei sui Social Media}
+
+\begin{itemize}
+    \item \textbf{Sofia (Promozione attraverso i Social Media)}:\\
+    ``Vorrei che i musei fossero più attivi su Instagram, condividendo contenuti interessanti.''
+    \item \textbf{Giulia (Promozione attraverso i Social Media)}:\\
+    ``Sarebbe bello vedere più pagine d'arte su Instagram che pubblicano contenuti accattivanti.''
+    \item \textbf{Matteo (Promozione attraverso i Social Media)}:\\
+    ``I musei dovrebbero utilizzare di più le piattaforme come TikTok per raggiungere i giovani.''
+    \item \textbf{Alessandro (Promozione attraverso i Social Media)}:\\
+    ``Sarebbe utile se i musei fossero più presenti sui social media, condividendo anteprime delle mostre o eventi speciali.''
+\end{itemize}
+
+\subsubsection{Contenuti Coinvolgenti e Collaborazioni}
+
+\begin{itemize}
+    \item \textbf{Matteo (Promozione attraverso i Social Media)}:\\
+    ``Potrebbero creare sondaggi o quiz interattivi nelle storie per coinvolgere il pubblico.''
+    \item \textbf{Sofia (Promozione attraverso i Social Media)}:\\
+    ``Collaborazioni con influencer o artisti noti potrebbero attirare l'attenzione dei giovani.''
+    \item \textbf{Alessandro (Promozione attraverso i Social Media)}:\\
+    ``Contest o sfide creative dove gli utenti possono condividere le proprie interpretazioni delle opere.''
+\end{itemize}
+
+\subsubsection{Incoraggiamento alla Condivisione da Parte degli Utenti}
+
+\begin{itemize}
+    \item \textbf{Giulia (Promozione attraverso i Social Media)}:\\
+    ``Se ci fossero esperienze più coinvolgenti, sarei più motivata a condividere.''
+    \item \textbf{Matteo (Promozione attraverso i Social Media)}:\\
+    ``Condivido solo se l'esperienza è stata particolarmente unica.''
+    \item \textbf{Sofia (Promozione attraverso i Social Media)}:\\
+    ``Installazioni interattive o eventi speciali mi renderebbero più incline a condividere.''
+    \item \textbf{Alessandro (Promozione attraverso i Social Media)}:\\
+    ``Vorrei condividere di più, ma spesso le visite non offrono spunti interessanti.''
+\end{itemize}
+
+\section{Contenuti Accessibili e Inclusivi}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Informazioni Multilingue}
+
+\begin{itemize}
+    \item \textbf{Giulia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Spesso le informazioni sono solo in italiano o inglese, e questo può essere un problema per i turisti.''
+    \item \textbf{Matteo (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Offrire contenuti in diverse lingue renderebbe il museo più accessibile a tutti.''
+    \item \textbf{Sofia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Eviterebbe fraintendimenti o difficoltà di comprensione.''
+    \item \textbf{Alessandro (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``È fondamentale per un'istituzione che vuole essere inclusiva.''
+\end{itemize}
+
+\subsubsection{Strumenti per l'Accessibilità Linguistica}
+
+\begin{itemize}
+    \item \textbf{Giulia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Utilizzando strumenti che offrono traduzioni in diverse lingue, magari accessibili facilmente durante la visita.''
+    \item \textbf{Matteo (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Pannelli informativi digitali dove il visitatore può selezionare la lingua desiderata sarebbero utili.''
+    \item \textbf{Sofia (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``La realtà aumentata potrebbe aiutare, mostrando le traduzioni direttamente sullo schermo del dispositivo.''
+    \item \textbf{Alessandro (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Formare il personale per assistere i visitatori stranieri potrebbe essere un ulteriore passo avanti.''
+\end{itemize}
+
+\subsubsection{Contenuti per Esigenze Specifiche}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Uso della Tecnologia nei Musei)}:\\
+    ``La tecnologia potrebbe rendere il museo più accessibile, offrendo contenuti in diverse lingue o formati per persone con esigenze specifiche.''
+\end{itemize}
+
+\section{Contenuti Educativi Coinvolgenti}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Presentazione Innovativa delle Informazioni}
+
+\begin{itemize}
+    \item \textbf{Matteo (Apprendimento Coinvolgente)}:\\
+    ``Presentare i contenuti in modo innovativo, utilizzando tecnologie come la realtà aumentata o video interattivi.''
+    \item \textbf{Giulia (Esperienze Interattive e Immersive)}:\\
+    ``Spesso le informazioni nei musei sono statiche e poco coinvolgenti.''
+    \item \textbf{Sofia (Apprendimento Coinvolgente)}:\\
+    ``Includere aneddoti e curiosità sulle opere per rendere l'apprendimento più piacevole.''
+\end{itemize}
+
+\subsubsection{Evitare Linguaggio Eccessivamente Accademico}
+
+\begin{itemize}
+    \item \textbf{Sofia (Apprendimento Coinvolgente)}:\\
+    ``Spesso le informazioni sono troppo accademiche e poco accessibili.''
+    \item \textbf{Matteo (Apprendimento Coinvolgente)}:\\
+    ``Le informazioni sono spesso presentate in modo monotono.''
+\end{itemize}
+
+\subsubsection{Attività di Gruppo per l'Apprendimento}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Apprendimento Coinvolgente)}:\\
+    ``Offrire attività di gruppo o sfide con amici per aumentare il coinvolgimento.''
+\end{itemize}
+
+\section{Semplificazione dell'Accesso e dei Servizi}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Servizi Centralizzati per Evitare Code}
+
+\begin{itemize}
+    \item \textbf{Sofia (Semplificazione dell'Accesso)}:\\
+    ``Mi piacerebbe poter acquistare i biglietti per più musei da un'unica piattaforma.''
+    \item \textbf{Giulia (Semplificazione dell'Accesso)}:\\
+    ``Un sistema centralizzato dove posso acquistare i biglietti e pianificare la visita.''
+    \item \textbf{Matteo (Semplificazione dell'Accesso)}:\\
+    ``Un aggregatore che mi permetta di gestire tutto da un unico punto sarebbe molto comodo.''
+    \item \textbf{Alessandro (Semplificazione dell'Accesso)}:\\
+    ``Acquistare e pianificare tutto in anticipo da un'unica piattaforma eviterebbe problemi.''
+\end{itemize}
+
+\subsubsection{Promozioni e Sconti}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Semplificazione dell'Accesso)}:\\
+    ``Offrire promozioni o sconti per acquisti multipli potrebbe incentivare le visite.''
+\end{itemize}
+
+\subsubsection{Aggiornamenti in Tempo Reale sulle Informazioni del Museo}
+
+\begin{itemize}
+    \item \textbf{Sofia (Semplificazione dell'Accesso)}:\\
+    ``La tecnologia potrebbe fornire informazioni aggiornate su orari, prezzi e affluenza.''
+\end{itemize}
+
+\section{Assistenza e Formazione del Personale}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Personale in Grado di Assistere in Più Lingue}
+
+\begin{itemize}
+    \item \textbf{Alessandro (Creazione di Contenuti Accessibili ed Inclusivi)}:\\
+    ``Formare il personale per assistere i visitatori stranieri potrebbe essere un ulteriore passo avanti.''
+\end{itemize}
+
+\section{Accesso Virtuale a Siti Inaccessibili}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Visite Virtuali a Siti Storici o Inaccessibili}
+
+\begin{itemize}
+    \item \textbf{Giulia (Integrazione di Visite Virtuali)}:\\
+    ``Vorrei esplorare siti storici che non esistono più o che sono inaccessibili.''
+    \item \textbf{Sofia (Integrazione di Visite Virtuali)}:\\
+    ``Penso che possa arricchire l'esperienza museale, offrendo una prospettiva diversa e più immersiva.''
+    \item \textbf{Alessandro (Integrazione di Visite Virtuali)}:\\
+    ``Potrebbe essere un modo per prepararsi alla visita reale, avendo già un'idea di cosa aspettarsi.''
+\end{itemize}
+
+\subsubsection{Realtà Aumentata Durante le Visite}
+
+\begin{itemize}
+    \item \textbf{Giulia (Integrazione di Visite Virtuali)}:\\
+    ``La realtà aumentata sarebbe molto utile durante la visita, aggiungendo informazioni senza distrarre troppo.''
+\end{itemize}
+
+\section{Importanza dell'Esperienza Fisica}
+
+\subsection{Bisogni degli Utenti}
+
+\subsubsection{Visite Virtuali come Complemento, Non Sostituto}
+
+\begin{itemize}
+    \item \textbf{Giulia (Integrazione di Visite Virtuali)}:\\
+    ``Per me potrebbero arricchire, ma non sostituire completamente la visita fisica.''
+    \item \textbf{Matteo (Integrazione di Visite Virtuali)}:\\
+    ``Sono un complemento utile, ma l'emozione della visita reale è diversa.''
+    \item \textbf{Sofia (Integrazione di Visite Virtuali)}:\\
+    ``Potrebbero essere un ottimo strumento educativo, ma non dovrebbero sostituire l'esperienza autentica.''
+    \item \textbf{Alessandro (Integrazione di Visite Virtuali)}:\\
+    ``Possono ampliare l'accessibilità dell'arte, ma l'interazione diretta con le opere rimane fondamentale.''
+\end{itemize}
+
+\section*{Sintesi}
+
+I partecipanti esprimono un forte desiderio per un'esperienza museale più interattiva, personalizzata e tecnologicamente avanzata. I bisogni chiave includono giochi interattivi, esperienze di realtà aumentata e virtuale, percorsi personalizzati, informazioni accessibili in più lingue e un coinvolgimento attivo attraverso i social media. Sottolineano anche l'importanza di semplificare l'accesso e i servizi, come l'acquisto dei biglietti e la pianificazione, tramite piattaforme centralizzate. Pur apprezzando il potenziale delle visite virtuali, le vedono come un complemento e non come un sostituto dell'esperienza museale fisica.
+
+\end{document}
