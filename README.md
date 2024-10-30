@@ -1,7 +1,9 @@
-# Progetto di Human Computer Interaction
+# ArtMyWay | DesignersForCulture
 
-![HINTlab Logo](https://hintlab.polimi.it/wp-content/uploads/2023/03/cropped-cropped-Risorsa-13interfaccia.png)
-![ArtMyWay Logo](assets/logo.jpg)
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="assets/logo.png" alt="ArtMyWay Logo" width="200"/>
+  <img src="https://hintlab.polimi.it/wp-content/uploads/2023/03/cropped-cropped-Risorsa-13interfaccia.png" alt="HINTlab Logo" width="200"/>
+</div>
 
 **Corso di Laurea:** Ingegneria Informatica  
 **Anno Accademico:** 2024/25  
