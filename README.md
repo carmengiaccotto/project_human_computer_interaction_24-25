@@ -1,8 +1,6 @@
 # ArtMyWay | DesignersForCulture 
-<p align="center">
-  <img src="assets/logo.png" alt="ArtMyWay Logo" width="200" style="vertical-align: middle;"/>
-  <img src="https://hintlab.polimi.it/wp-content/uploads/2023/03/cropped-cropped-Risorsa-13interfaccia.png" alt="HINTlab Logo" width="200" style="vertical-align: middle;"/>
-</p>
+
+![Logos](assets/HINT+Logo.png)
 
 **Corso di Laurea:** Ingegneria Informatica  
 **Anno Accademico:** 2024/25  
