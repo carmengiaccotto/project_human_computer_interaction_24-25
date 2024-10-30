@@ -33,6 +33,6 @@ L'esperienza museale tradizionale spesso risulta poco attraente per i giovani pe
 ### Raffinamento e Focus:
 - L’obiettivo di questa fase è stato quello di affinare ulteriormente l'ambito della nostra attività per identificare con precisione i bisogni chiave degli utenti attraverso ulteriori attività di needfinding. Sono state condotte attività di brainstorming per esplorare idee e intuizioni, selezionando quelle che rispondono al meglio alle esigenze individuate. È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGU9dRIH_8/2-LSVHoigaZfku9RytmWmg/edit?utm_content=DAGU9dRIH_8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
 
-- Il **nome** scelto per il progetto, --, riflette il cuore del nostro obiettivo, evocando il bisogno specifico e il supporto fornito agli utenti. È stato scelto per comunicare immediatamente la soluzione proposta, rendendola intuitiva e memorabile.
+- Il nome scelto per il progetto, **ArtMyWay**, riflette il cuore del nostro obiettivo: offrire agli utenti un'esperienza artistica personalizzata e su misura. Comunica immediatamente la soluzione proposta, rendendola intuitiva e memorabile, e sottolinea il supporto specifico fornito, come visite adattate al tempo disponibile, audioguide personalizzate e consigli su mostre coerenti con gli interessi dell'utente.
 
-- La **value proposition** scelta rispecchia appieno il beneficio specifico che la nostra soluzione intende apportare: "---".
+- La nostra **value proposition** cattura l'essenza del valore che offriamo con ArtMyWay: **"Rendiamo l'arte un gioco da ragazzi"**. Rendiamo l'esperienza artistica semplice, coinvolgente e accessibile a tutti.
