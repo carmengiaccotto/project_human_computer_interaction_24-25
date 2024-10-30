@@ -1,6 +1,7 @@
 # Progetto di Human Computer Interaction
 
 ![HINTlab Logo](https://hintlab.polimi.it/wp-content/uploads/2023/03/cropped-cropped-Risorsa-13interfaccia.png)
+![ArtMyWay Logo](assets/logo.jpg)
 
 **Corso di Laurea:** Ingegneria Informatica  
 **Anno Accademico:** 2024/25  
