@@ -19,7 +19,9 @@
 ### Descrizione del Progetto:
 Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura, con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
-[![Visita il sito di Art My Way](https://img.shields.io/badge/Visit-Art%20My%20Way-%233b82f6?style=for-the-badge&logo=ArtStation&logoColor=white)](https://art-my-way.com/)
+<a href="https://art-my-way.com/" target="_blank">
+  <img src="images/logo.png" alt="Visita il sito di ArtMyWay" width="40" height="40">
+</a>
 
 
 ### Problema:
