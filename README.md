@@ -20,8 +20,8 @@
 Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura, con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
 <a href="https://art-my-way.com/" target="_blank">
-  Visita il sito di ArtMyWay: 
   <img src="assets/linkLogo.png" alt="Visita il sito di ArtMyWay" width="40" height="40" style="vertical-align: middle;">
+  Visita il sito di ArtMyWay
 </a>
 
 ### Problema:
