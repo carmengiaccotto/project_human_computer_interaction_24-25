@@ -20,9 +20,9 @@
 Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura, con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
 <a href="https://art-my-way.com/" target="_blank">
-  <img src="assets/linkLogo.png" alt="Visita il sito di ArtMyWay" width="40" height="40">
+  Visita il sito di ArtMyWay: 
+  <img src="assets/linkLogo.png" alt="Visita il sito di ArtMyWay" width="40" height="40" style="vertical-align: middle;">
 </a>
-
 
 ### Problema:
 L'esperienza museale tradizionale spesso risulta poco attraente per i giovani per diversi motivi. La mancanza di interattività e di attività mirate ai loro interessi rende difficile catturare la loro attenzione e stimolare la loro curiosità verso l'arte e la cultura. I musei raramente integrano strumenti didattici innovativi e inclusivi, limitando così l'opportunità di promuovere una partecipazione attiva. Spesso sono inoltre assenti elementi di gamification e non esiste la possibilità di personalizzare l'esperienza. Le barriere pratiche, come la necessità di creare account multipli per l'acquisto di biglietti o l'accesso alle audioguide, rendono il processo macchinoso e poco accessibile, il che può scoraggiare la fascia più giovane dal visitare i musei.
