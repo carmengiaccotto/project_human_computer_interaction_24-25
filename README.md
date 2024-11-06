@@ -33,7 +33,7 @@ L'esperienza museale tradizionale spesso risulta poco attraente per i giovani pe
 
 - È stato stilato un paper in cui i risultati sono stati raccolti in maniera più approfondita e dettagliata. Clicca [**qui**](https://github.com/carmengiaccotto/project_human_computer_interaction_24-25/blob/main/C1/docs/report/final_report_needfinding.pdf) per accedervi.
 
-- È stato inoltre creato un sondaggio per raccogliere dati sulle preferenze e sulle barriere che i giovani incontrano durante le visite ai musei. Clicca [**qui**](https://g9dzinv68sa.typeform.com/to/GA28hC7C) per accedere al form.
+- È stato inoltre creato un sondaggio per raccogliere dati sulle preferenze e sulle barriere che i giovani incontrano durante le visite ai musei. Clicca [**qui**](https://g9dzinv68sa.typeform.com/to/GA28hC7C) per accedervi.
 
 ### C2 - Raffinamento e Focus:
 - L’obiettivo di questa fase è stato quello di affinare ulteriormente l'ambito della nostra attività per identificare con precisione i bisogni chiave degli utenti attraverso ulteriori attività di needfinding. Sono state condotte attività di brainstorming per esplorare idee e intuizioni, selezionando quelle che rispondono al meglio alle esigenze individuate. È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGU9dRIH_8/2-LSVHoigaZfku9RytmWmg/edit?utm_content=DAGU9dRIH_8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
