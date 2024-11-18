@@ -42,6 +42,6 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 ### C3 - Task, Storyboard e Primi Prototipi:
 - Gli obiettivi di questa fase consistono nel definire i principali task utente e nel creare i primi prototipi del progetto. E' stato sviluppato uno storyboard per visualizzare il flusso d’interazione e sono stati creati due prototipi di wireframe su Figma per esplorare modalità alternative di implementazione. È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGVhLIJ1a8/aoS16_-NtIoWaFw2ojKdWg/edit?utm_content=DAGVhLIJ1a8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
 
-- [**Prototipo 1**](https://www.figma.com/design/FBuBTsykLnBfEd7NLKxSYB/Prototipo-1---DesignersForCulture?node-id=1-7&node-type=canvas&t=87isH2afzACmBTcq-0) - Mobile App
+- [**Prototipo 1**](https://www.figma.com/design/FBuBTsykLnBfEd7NLKxSYB/Prototipo-1---DesignersForCulture?node-id=0-1&t=Usa58k1snDNulU7z-1) - Mobile App
 
-- [**Prototipo 2**](https://www.figma.com/design/OihEWnZD8qJsFjCLEXBnaA/Prototipo-2?node-id=0-1&node-type=canvas&t=dUn72RyT5LT1lY6Y-0) - Sito Web
+- [**Prototipo 2**](https://www.figma.com/design/OihEWnZD8qJsFjCLEXBnaA/Prototipo-2---DesignersForCulture?node-id=0-1&t=3SZ4D51RgYHAtL8j-1) - Sito Web
