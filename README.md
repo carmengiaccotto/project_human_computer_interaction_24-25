@@ -24,7 +24,7 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
     <img src="https://img.shields.io/badge/Visita%20il%20sito%20di-ArtMyWay-311825?labelColor=F0D6C5&style=for-the-badge&link=https://art-my-way.com/" alt="Visita il sito di ArtMyWay">
   </a>
   <a href="https://app.netlify.com/sites/artmyway/deploys">
-    <img src="https://img.shields.io/badge/Deploy%20Status-Netlify-00AD9F?labelColor=232F3E&style=for-the-badge&logo=netlify" alt="Netlify Status">
+    <img src="https://img.shields.io/badge/Netlify-Success-00AD9F?labelColor=232F3E&style=for-the-badge&logo=netlify" alt="Netlify Status">
   </a>
 </p>
 
