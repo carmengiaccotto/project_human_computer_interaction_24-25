@@ -21,6 +21,8 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 
 [![Visita il sito di](https://img.shields.io/badge/Visita%20il%20sito%20di-ArtMyWay-311825?labelColor=F0D6C5&style=for-the-badge&link=https://art-my-way.com/)](https://art-my-way.com/)
 
+[![Netlify Status](https://img.shields.io/badge/Deploy%20Status-Netlify-00AD9F?labelColor=232F3E&style=for-the-badge&logo=netlify)](https://app.netlify.com/sites/artmyway/deploys)
+
 ### C1 - Needfinding:
  - Gli obiettivi di questa fase consistono nell’osservare e nel comprendere i modi in cui gli adolescenti eseguono le attività che il nuovo sistema interattivo si propone di supportare. Il team si è focalizzato sull’analisi degli obiettivi degli utenti e delle loro pratiche per generare intuizioni progettuali significative e definire i requisiti per lo sviluppo del sistema. Per meglio comprendere le esigenze del target, il team ha condotto interviste con adolescenti e operatori museali.
 È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGTSNj9lJg/yVSnIUh4KBzx_JAO72yTgw/edit?utm_content=DAGTSNj9lJg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
