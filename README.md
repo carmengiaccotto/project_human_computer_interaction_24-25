@@ -19,10 +19,7 @@
 ### Descrizione del Progetto:
 Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
-<a href="https://art-my-way.com/" target="_blank">
-  <img src="assets/linkLogo.png" alt="Visita il sito di ArtMyWay" width="40" height="40" style="vertical-align: middle;">
-  Visita il sito di ArtMyWay
-</a>
+[![Visita il sito di](https://img.shields.io/badge/Visita%20il%20sito%20di-ArtMyWay-311825?labelColor=F0D6C5&style=for-the-badge&link=https://art-my-way.com/)](https://art-my-way.com/)
 
 ### C1 - Needfinding:
  - Gli obiettivi di questa fase consistono nell’osservare e nel comprendere i modi in cui gli adolescenti eseguono le attività che il nuovo sistema interattivo si propone di supportare. Il team si è focalizzato sull’analisi degli obiettivi degli utenti e delle loro pratiche per generare intuizioni progettuali significative e definire i requisiti per lo sviluppo del sistema. Per meglio comprendere le esigenze del target, il team ha condotto interviste con adolescenti e operatori museali.
