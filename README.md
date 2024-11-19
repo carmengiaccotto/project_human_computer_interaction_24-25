@@ -19,9 +19,14 @@
 ### Descrizione del Progetto:
 Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che combinino tecnologia e cultura con l'obiettivo di rendere l'arte e il patrimonio culturale più accessibili e coinvolgenti per gli adolescenti (16-19 anni). L'iniziativa mira anche a promuovere una cittadinanza più consapevole e partecipativa.
 
-[![Visita il sito di](https://img.shields.io/badge/Visita%20il%20sito%20di-ArtMyWay-311825?labelColor=F0D6C5&style=for-the-badge&link=https://art-my-way.com/)](https://art-my-way.com/)
-
-[![Netlify Status](https://img.shields.io/badge/Deploy%20Status-Netlify-00AD9F?labelColor=232F3E&style=for-the-badge&logo=netlify)](https://app.netlify.com/sites/artmyway/deploys)
+<p align="center">
+  <a href="https://art-my-way.com/">
+    <img src="https://img.shields.io/badge/Visita%20il%20sito%20di-ArtMyWay-311825?labelColor=F0D6C5&style=for-the-badge&link=https://art-my-way.com/" alt="Visita il sito di ArtMyWay">
+  </a>
+  <a href="https://app.netlify.com/sites/artmyway/deploys">
+    <img src="https://img.shields.io/badge/Deploy%20Status-Netlify-00AD9F?labelColor=232F3E&style=for-the-badge&logo=netlify" alt="Netlify Status">
+  </a>
+</p>
 
 ### C1 - Needfinding:
  - Gli obiettivi di questa fase consistono nell’osservare e nel comprendere i modi in cui gli adolescenti eseguono le attività che il nuovo sistema interattivo si propone di supportare. Il team si è focalizzato sull’analisi degli obiettivi degli utenti e delle loro pratiche per generare intuizioni progettuali significative e definire i requisiti per lo sviluppo del sistema. Per meglio comprendere le esigenze del target, il team ha condotto interviste con adolescenti e operatori museali.
