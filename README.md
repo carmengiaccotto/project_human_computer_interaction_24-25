@@ -45,6 +45,13 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 ### C3 - Task, Storyboard e Primi Prototipi:
 - Gli obiettivi di questa fase consistono nel definire i principali task utente e nel creare i primi prototipi del progetto. E' stato sviluppato uno storyboard per visualizzare il flusso d’interazione e sono stati creati due prototipi di wireframe su Figma per esplorare modalità alternative di implementazione. È stato raccolto tutto il lavoro svolto in una presentazione. Clicca [**qui**](https://www.canva.com/design/DAGVhLIJ1a8/aoS16_-NtIoWaFw2ojKdWg/edit?utm_content=DAGVhLIJ1a8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione.
 
-- [**Prototipo 1**](https://www.figma.com/design/FBuBTsykLnBfEd7NLKxSYB/Prototipo-1---DesignersForCulture?node-id=0-1&t=Usa58k1snDNulU7z-1) - Mobile App
+- [**Prototipo Low-Fidelity 1**](https://www.figma.com/design/FBuBTsykLnBfEd7NLKxSYB/Prototipo-1---DesignersForCulture?node-id=0-1&t=Usa58k1snDNulU7z-1) - Mobile App
 
-- [**Prototipo 2**](https://www.figma.com/design/OihEWnZD8qJsFjCLEXBnaA/Prototipo-2---DesignersForCulture?node-id=0-1&t=3SZ4D51RgYHAtL8j-1) - Sito Web
+- [**Prototipo Low-Fidelity 2**](https://www.figma.com/design/OihEWnZD8qJsFjCLEXBnaA/Prototipo-2---DesignersForCulture?node-id=0-1&t=3SZ4D51RgYHAtL8j-1) - Sito Web
+
+### C4 - Raffinamento del Prototipo:
+- L’obiettivo di questa fase è stato quello di migliorare il prototipo preliminare scelto per ottenere un artefatto interattivo utilizzabile da un valutatore esterno. Sono stati raffinati i dettagli del design visuale e della navigazione, includendo tutti gli elementi necessari per eseguire i task principali e collegamenti attivi tra le sezioni. Clicca [**qui**](https://www.canva.com/design/DAGXrRDeYEc/f1TMIpoi6AcqC6yvYSM6Tg/edit?utm_content=DAGXrRDeYEc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione in cui vengono descritte tutte le caratteristiche del prototipo.
+
+- È stato inoltre preparato un documento per i valutatori esterni. Clicca [**qui**]() per accedervi.
+
+- [**Prototipo Mid-Fidelity**]()
