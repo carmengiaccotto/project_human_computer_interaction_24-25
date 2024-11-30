@@ -49,7 +49,7 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 
 - [**Prototipo Low-Fidelity 2**](https://www.figma.com/design/OihEWnZD8qJsFjCLEXBnaA/Prototipo-2---DesignersForCulture?node-id=0-1&t=3SZ4D51RgYHAtL8j-1) - Sito Web
 
-### C4 - Raffinamento del Prototipo:
+### C4 - Raffinamento del prototipo:
 - L’obiettivo di questa fase è stato quello di migliorare il prototipo preliminare scelto per ottenere un artefatto interattivo utilizzabile da un valutatore esterno. Sono stati raffinati i dettagli del design visuale e della navigazione, includendo tutti gli elementi necessari per eseguire i task principali e collegamenti attivi tra le sezioni. Clicca [**qui**](https://www.canva.com/design/DAGXrRDeYEc/f1TMIpoi6AcqC6yvYSM6Tg/edit?utm_content=DAGXrRDeYEc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per accedere alla versione interattiva della presentazione in cui vengono descritte tutte le caratteristiche del prototipo.
 
 - È stato inoltre preparato un documento per i valutatori esterni. Clicca [**qui**]() per accedervi.
