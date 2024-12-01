@@ -54,4 +54,4 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 
 - È stato inoltre preparato un documento per i valutatori esterni. Clicca [**qui**]() per accedervi.
 
-- [**Prototipo Mid-Fidelity**]()
+- [**Prototipo Mid-Fidelity**](https://www.figma.com/design/DssxKU75A7I8ykLuzYvFeC/Raffinamento-Prototipo-Mobile-App?node-id=0-1&t=XWcp3V56G4vdl11N-1)
