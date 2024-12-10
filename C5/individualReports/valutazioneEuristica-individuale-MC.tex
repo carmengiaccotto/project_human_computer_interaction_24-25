@@ -1,0 +1,209 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{titling}
+
+% Impostazioni del layout
+\geometry{a4paper, margin=1in}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\begin{document}
+
+
+
+
+% Titolo e logo come un unico blocco
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{../../assets/HINT+Logo.png}\\[2em]
+    {\huge \textbf{Valutazione Euristica}}\\[1em]
+    {\large Mattia Colombo - 931887}
+\end{center}
+
+
+
+\section*{Parte II: Descrizione del progetto}
+L’app \textbf{“CommUnity”} è progettata per promuovere la partecipazione attiva tra cittadini e amministrazione comunale, migliorando comunicazione e coinvolgimento. La piattaforma include:
+\begin{itemize}
+    \item Una mobile app dedicata agli utenti finali per segnalazioni e proposte.
+    \item Una web app per il personale comunale, ottimizzata per la gestione e l’approfondimento delle iniziative cittadine.
+\end{itemize}
+
+\section*{Parte III: Esecuzione della valutazione}
+\subsection*{Metodo di valutazione}
+La valutazione euristica è stata condotta online, in collaborazione con l’altro gruppo di sviluppo responsabile del prototipo. Abbiamo analizzato le interfacce utilizzando i materiali forniti, tra cui:
+\begin{itemize}
+    \item \textbf{README fornito dal gruppo}: Questo documento descriveva l’applicazione e le task da completare.
+    \item \textbf{Prototipi dell’app mobile e della web app}: Esplorati per identificare problemi di usabilità.
+    \item \textbf{Euristiche di Jakob Nielsen}: Utilizzate per individuare i problemi e attribuire gravità secondo la scala di Nielsen.
+\end{itemize}
+
+\subsection*{Passaggi seguiti}
+\begin{enumerate}
+    \item Lettura del README per identificare i principali obiettivi e task.
+    \item Esplorazione iniziale del prototipo per familiarizzare con le funzionalità principali e comprendere il flusso generale.
+    \item Simulazione delle task descritte nel README, analizzando le schermate in relazione alle euristiche.
+    \item Annotazione dei problemi riscontrati, descrivendo “dove”, “cosa”, “perché” e “gravità” per ciascun problema.
+    \item Interazione con l’altro gruppo per chiarimenti su alcune funzionalità poco chiare.
+\end{enumerate}
+
+\section*{Parte IV: Elenco delle violazioni}
+
+\subsection*{Mobile App}
+
+\textbf{Problema 1. H4 - Coerenza e standard} \\
+\textbf{Dove:} Nella schermata “Home”, sezione barra di ricerca e “Discover”. \\
+\textbf{Cosa:} La barra di ricerca sulla pagina “Home” utilizza il testo placeholder “Search here…” mentre nella sezione “Discover” il testo placeholder è diverso. \\
+\textbf{Perché:} La terminologia e il design incoerenti tra sezioni con funzioni simili possono confondere gli utenti, riducendo l’usabilità complessiva. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 2. H10 - Aiuto e documentazione} \\
+\textbf{Dove:} Nella schermata “Home”, link “Scopri di più” nella sezione “Notizie in evidenza”. \\
+\textbf{Cosa:} Il link “Scopri di più” non fornisce indicazioni immediate su cosa mostrerà all’utente (es. altre notizie, una descrizione completa, etc.). \\
+\textbf{Perché:} La mancanza di chiarezza nelle azioni proposte aumenta l’incertezza per l’utente e riduce l’efficienza dell’interazione. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 3. H2 - Corrispondenza tra sistema e mondo reale} \\
+\textbf{Dove:} Nella schermata “Discover”, sezione “Progetti” e “Idee”. \\
+\textbf{Cosa:} Non è chiara la differenza tra “Progetti” e “Idee”. I termini non sono spiegati né differenziati visivamente. \\
+\textbf{Perché:} L’ambiguità nella terminologia potrebbe confondere gli utenti, rendendo difficile comprendere la distinzione tra le due categorie. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 4. H6 - Riconoscimento piuttosto che richiamo} \\
+\textbf{Dove:} Overlay filtri nella schermata “Discover”. \\
+\textbf{Cosa:} Le opzioni per le categorie e le località non sono accompagnate da descrizioni o anteprime visive che aiutino l’utente a capire cosa comporta la loro selezione. \\
+\textbf{Perché:} Gli utenti devono ricordare il significato delle categorie o località senza ulteriori indicazioni, aumentando il carico cognitivo. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 5. H7 - Flessibilità ed efficienza d’uso} \\
+\textbf{Dove:} Schermata “Discover”, lista di elementi (News, Progetti, Idee, Segnalazioni). \\
+\textbf{Cosa:} Non è presente un’opzione per salvare “al volo” un elemento direttamente dalla lista, costringendo l’utente a entrare nella singola notizia/progetto/idea per salvarlo. \\
+\textbf{Perché:} L’assenza di questa funzionalità riduce l’efficienza degli utenti esperti, che potrebbero voler raccogliere rapidamente elementi di interesse senza dover completare più passaggi. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 6. H8 - Design estetico e minimalista} \\
+\textbf{Dove:} Nella schermata “Mappa”, sezione overlay informativo “Loreto”. \\
+\textbf{Cosa:} Il pannello informativo mostra molte informazioni (percentuale di verde, progetti in corso, qualità dell’aria, segnalazioni recenti) senza un’organizzazione visiva chiara o gerarchia. \\
+\textbf{Perché:} L’eccessiva densità di informazioni senza una struttura visiva chiara aumenta il carico cognitivo per l’utente e riduce l’efficienza nell’estrarre dati utili. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 7. H6 - Riconoscimento piuttosto che richiamo} \\
+\textbf{Dove:} Nella schermata “Mappa”, icone di categorie sovrapposte alla mappa. \\
+\textbf{Cosa:} Le icone che rappresentano categorie (es. Cultura, Trasporti) non sono accompagnate da una legenda visibile o descrizioni contestuali immediate. \\
+\textbf{Perché:} Gli utenti devono ricordare il significato delle icone, specialmente se non familiari, il che aumenta il carico cognitivo. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 8. H4 - Coerenza e standard} \\
+\textbf{Dove:} Schermata “Profilo utente”, pulsante per accedere ai contenuti salvati (icona in alto a destra). \\
+\textbf{Cosa:} La posizione del pulsante per accedere ai contenuti salvati (in alto a destra) non è coerente con la struttura e il flusso di navigazione principale dell’app, dove i pulsanti sono posizionati nella barra inferiore o in aree centrali ben visibili. \\
+\textbf{Perché:} Gli utenti potrebbero non notare facilmente il pulsante, causando confusione e difficoltà a trovare i contenuti salvati. Questa posizione non segue gli standard comuni di design per app mobili. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 9. H7 - Flessibilità ed efficienza d’uso} \\
+\textbf{Dove:} Schermata “Salvati”, barra dei filtri. \\
+\textbf{Cosa:} Non è possibile filtrare per “Idee approvate” che sono diventate “Progetti”. \\
+\textbf{Perché:} La mancanza di un’opzione di filtro specifica per questa categoria limita l’efficienza degli utenti avanzati che vogliono accedere rapidamente a queste informazioni. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 10. H8 - Design estetico e minimalista} \\
+\textbf{Dove:} Schermata “Salvati”, lista di elementi. \\
+\textbf{Cosa:} La scritta che mostra la categoria per ogni riga è troppo piccola e non ci sono richiami visivi che aiutino l’utente a distinguere rapidamente le categorie. Questo causa un sovraccarico di informazioni per l’utente, costretto a leggere molto testo. \\
+\textbf{Perché:} La mancanza di elementi visivi distintivi rende difficile la scansione rapida delle informazioni, aumentando il carico cognitivo e riducendo l’usabilità. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 11. H8 - Design estetico e minimalista} \\
+\textbf{Dove:} Schermata “Salvati”, lista di elementi. \\
+\textbf{Cosa:} Il testo che indica la categoria (es. “Ambiente”) è molto piccolo e poco visibile, senza un supporto visivo come icone o colori distintivi. \\
+\textbf{Perché:} L’utente deve leggere interamente il testo per distinguere tra le categorie, aumentando il carico cognitivo e rallentando la navigazione. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 12. H1 - Visibilità dello stato del sistema, H6 - Riconoscimento piuttosto che richiamo} \\
+\textbf{Dove:} Schermata di creazione (segnalazioni o idee), accessibile tramite il pulsante “+” nella barra inferiore. \\
+\textbf{Cosa:} Sebbene sia indicato in piccolo se si sta creando una segnalazione o un’idea, il testo non è sufficientemente visibile o distintivo. La mancanza di un elemento visivo riconoscibile, come un’icona specifica (ad esempio quelle già utilizzate nella Home per Idee e Segnalazioni), rende meno immediata l’identificazione del contesto. \\
+\textbf{Perché:} L’attuale design obbliga l’utente a leggere il testo per comprendere il tipo di contenuto che sta creando, aumentando il carico cognitivo. L’aggiunta di un elemento visivo migliorerebbe la riconoscibilità e la fruibilità dell’interfaccia. \\
+\textbf{Gravità:} 3 \\[1em]
+
+
+\subsection*{Web App}
+
+\textbf{Problema 13. H4 - Coerenza e standard} \\
+\textbf{Dove:} Colonne dello stato (“Open”, “Pending”, “In Progress”, “In Review”). \\
+\textbf{Cosa:} I titoli delle colonne sono in inglese, mentre il resto dell’interfaccia usa principalmente l’italiano. \\
+\textbf{Perché:} L’uso di lingue miste nell’interfaccia non è coerente e può confondere gli utenti, specialmente se meno familiari con l’inglese. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 14. H8 - Design estetico e minimalista} \\
+\textbf{Dove:} Lista “Visti di recente” nel menu laterale sinistro. \\
+\textbf{Cosa:} Gli elementi elencati (Segnalazione, Idea, Notizia, ecc.) non hanno un ordine evidente o criteri di priorità. \\
+\textbf{Perché:} La mancanza di organizzazione visibile può far perdere tempo agli utenti nel cercare elementi recenti di interesse. Una suddivisione chiara o un ordine cronologico migliorerebbe la leggibilità. \\
+\textbf{Gravità:} 2 \\[1em]
+
+\textbf{Problema 15. H1 - Visibilità dello stato del sistema} \\
+\textbf{Dove:} Colonne dello stato (“Open”, “Pending”, “In Progress”, “In Review”). \\
+\textbf{Cosa:} Non ci sono indicatori visivi (es. colori, icone) per segnalare rapidamente lo stato o la priorità degli elementi nelle colonne. \\
+\textbf{Perché:} Gli utenti devono leggere i dettagli di ogni elemento per comprenderne lo stato, aumentando il carico cognitivo. L’aggiunta di indicatori visivi migliorerebbe l’efficienza e la chiarezza. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\textbf{Problema 16. H1 - Visibilità dello stato del sistema} \\
+\textbf{Dove:} Sezione di approfondimento, area della chat (icona e pannello a destra). \\
+\textbf{Cosa:} Non è chiaro se la chat rappresenti un’interazione con un’AI o con operatori umani, né quale sia il suo scopo specifico. \\
+\textbf{Perché:} La mancanza di indicazioni esplicite può confondere gli utenti, rendendo difficile comprendere il valore e l’utilizzo della funzionalità. Un’etichetta o un messaggio introduttivo migliorerebbero la chiarezza. \\
+\textbf{Gravità:} 3 \\[1em]
+
+\section*{Parte V: Sintesi e raccomandazioni}
+\subsection*{Tabella delle violazioni per euristica}
+\begin{longtable}{@{}ll@{}}
+    \toprule
+    \textbf{Euristica}                           & \textbf{\# Violazioni} \\ \midrule
+    H1: Visibility of system status              & 3                      \\
+    H2: Match between system and the real world  & 1                      \\
+    H3: User control and freedom                 & 0                      \\
+    H4: Consistency and standards                & 3                      \\
+    H5: Error prevention                         & 0                      \\
+    H6: Recognition rather than recall           & 3                      \\
+    H7: Flexibility and efficiency of use        & 3                      \\
+    H8: Aesthetic and minimalist design          & 5                      \\
+    H9: Help users recognize, diagnose, recover  & 1                      \\
+    H10: Help and documentation                  & 1                      \\
+    NE: Altri problemi                           & 0                      \\ \bottomrule
+\end{longtable}
+
+\section*{Conclusioni}
+
+Il prototipo \textbf{“CommUnity”} presenta un’interfaccia progettata con attenzione per promuovere la partecipazione attiva tra cittadini e amministrazione comunale. La distinzione tra la \textit{mobile app} e la \textit{web app} è interessante e riflette in modo efficace le esigenze specifiche degli utenti finali e del personale comunale.
+
+Tuttavia, sono stati identificati alcuni problemi significativi, tra cui:
+\begin{itemize}
+    \item \textbf{Coerenza visiva:} alcune sezioni presentano discrepanze stilistiche e terminologiche che possono confondere gli utenti.
+    \item \textbf{Riconoscibilità delle informazioni:} la mancanza di indicatori visivi chiari riduce l’efficienza nel comprendere lo stato del sistema e i contenuti presentati.
+    \item \textbf{Chiarezza delle funzionalità:} alcune caratteristiche dell’interfaccia non sono immediatamente comprensibili.
+\end{itemize}
+
+In particolare:
+\begin{itemize}
+    \item La \textit{mobile app} potrebbe beneficiare di un design più coerente e visivamente distintivo.
+    \item La \textit{web app} richiede maggiore uniformità linguistica e l’introduzione di indicatori visivi evidenti per migliorare la comprensione dello stato delle attività.
+\end{itemize}
+
+\subsection*{Raccomandazioni principali}
+Le seguenti raccomandazioni possono migliorare significativamente l’usabilità e l’efficacia del prototipo:
+\begin{itemize}
+    \item \textbf{Migliorare la visibilità delle informazioni chiave:} utilizzare indicatori visivi chiari come icone, colori o legende.
+    \item \textbf{Uniformare la terminologia:} evitare l’uso di lingue miste e mantenere coerenza tra le sezioni.
+    \item \textbf{Ottimizzare l’organizzazione delle informazioni:} ridurre il carico cognitivo tramite una disposizione chiara e intuitiva.
+    \item \textbf{Aumentare la flessibilità d’uso:} introdurre funzionalità avanzate come il salvataggio rapido e filtri più dettagliati per utenti esperti.
+\end{itemize}
+
+Affrontare questi aspetti con priorità elevata migliorerebbe notevolmente l’esperienza utente e l’impatto complessivo del prototipo.
+
+\end{document}
