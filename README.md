@@ -64,7 +64,7 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 ### C6 - Usability Testing e Prototipo High Fidelity:
 - Questa fase è iniziata con l'analisi del report dei valutatori esterni, che segnala le violazioni delle euristiche di usabilità del prototipo mid-fidelity. Ogni problematica è stata affrontata: le soluzioni implementate sono descritte nel report, mentre eventuali scelte di non intervento sono state motivate. Clicca [**qui**]() per leggere il report.
 
-- Il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**]().
+- Il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**](https://www.figma.com/design/VRKicoa3KlAHl602JrLuNA/Prototipo-High-Fidelity-Mobile-App? m=auto&t=rfBDeyVJhnfbhQHm-6).
 
 - E' stata condotta una fase di Usability Testing con 7 adolescenti (16-19 anni), rappresentativi del target del progetto. Il lavoro svolto è stato documentato in una presentazione interattiva. Clicca [**qui**]() per accedervi. È inoltre disponibile il protocollo completo del test, comprensivo di script e questionari utilizzati. Clicca [**qui**](https://github.com/carmengiaccotto/project_human_computer_interaction_24-25/blob/main/C6/Protocollo_Script_Usability_Test.pdf) per leggere il protocollo.
 
