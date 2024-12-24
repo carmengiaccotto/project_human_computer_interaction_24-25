@@ -64,9 +64,9 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 ### C6 - Usability Testing e Prototipo High Fidelity:
 - Questa fase è iniziata con l'analisi del report dei valutatori esterni, che segnala le violazioni delle euristiche di usabilità del prototipo mid-fidelity. Ogni problematica è stata affrontata: le soluzioni implementate sono descritte nel report, mentre eventuali scelte di non intervento sono state motivate. Clicca [**qui**]() per leggere il report.
 
-- Successivamente il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**]().
+- Il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**]().
 
-- Infine è stata condotta una fase di Usability Testing con 7 adolescenti (16-19 anni), rappresentativi del target del progetto. Il lavoro svolto è documentato in una presentazione interattiva. Clicca [**qui**]() per accedere alla versione interattiva della presentazione. È inoltre disponibile il protocollo completo del test, comprensivo di script e questionari utilizzati. Clicca [**qui**]() per leggere il protocollo.
+- E' stata condotta una fase di Usability Testing con 7 adolescenti (16-19 anni), rappresentativi del target del progetto. Il lavoro svolto è documentato in una presentazione interattiva. Clicca [**qui**]() per accedervi. È inoltre disponibile il protocollo completo del test, comprensivo di script e questionari utilizzati. Clicca [**qui**]() per leggere il protocollo.
 
 ### Presentazione finale del progetto:
 - La presentazione finale illustra la genesi del progetto, la progettazione, il raffinamento post valutazione euristica e i risultati dell’usability testing. Clicca [**qui**]() per accedervi.
