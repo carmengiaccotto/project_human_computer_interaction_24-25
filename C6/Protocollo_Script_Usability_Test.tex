@@ -1,0 +1,238 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx} 
+
+% Definisci il colore per le sezioni
+\definecolor{subsectioncolor}{RGB}{0, 102, 204}
+
+% Impostazioni per la pagina
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% Pacchetto per hyperlink
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\begin{document}
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{logo.png} \\[1em]
+    {\LARGE \textbf{ArtMyWay - DesignersForCulture}} \\[0.5em]
+    {\Large \textbf{PROTOCOLLO E SCRIPT USABILITY TEST}} \\[1.5em]
+    {\large 27 Dicembre 2024}
+\end{center}
+
+\section{Partecipanti Coinvolti}
+Prima di condurre i test sulla versione high-fidelity del prototipo, sono stati selezionati 7 adolescenti di et\`a compresa tra i 16 e i 19 anni, in linea con il target definito nella fase iniziale del progetto. \\ La selezione tiene conto di due aspetti chiave, ritenuti fondamentali per una valutazione efficace del prototipo:
+\begin{itemize}
+    \item Esperienza pregressa nella visita di musei;
+    \item Familiarit\`a con le applicazioni mobili.
+\end{itemize}
+Questi criteri permettono di assicurare che i partecipanti rappresentino adeguatamente il pubblico target, fornendo feedback utili e mirati per ottimizzare l'applicazione.
+
+\section{Ruoli dei membri del gruppo}
+Ogni caso di test viene eseguito con il contributo di tutti i componenti del gruppo, ciascuno assegnato ad un ruolo specifico.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|p{7cm}|}
+        \hline
+        \textbf{Ruolo} & \textbf{Componente del gruppo} & \textbf{Responsabilit\`a} \\
+        \hline
+        Facilitatore & Carmen Giaccotto, Alessia Franchetti-Rosada, & Chiede ai partecipanti di eseguire dei task \\ & Mattia Colombo. & utilizzando una o pi\`u interfacce utente.\\
+        \hline
+        Osservatore & Federico Previtali, Manoueil Michael Halim Riad & Osserva il comportamento del partecipante \\ & Hanna, Valentina Petrignano, Michele Arrigoni. & e ascolta eventuali commenti.\\
+        \hline
+    \end{tabular}
+\end{table}
+
+\section{Materiali e Strumenti necessari per il Test}
+\subsection*{Strumenti}
+\begin{itemize}
+    \item Uno smartphone e/o un computer per la compilazione dei questionari;
+    \item Un’applicazione di meeting online per eseguire il test a distanza e registrare l’interazione dell’utente;
+    \item Carta e penna per prendere appunti.
+\end{itemize}
+
+\subsection*{Materiali}
+\begin{itemize}
+    \item Modulo di consenso informato;
+    \item Questionario pre-test per raccogliere informazioni iniziali;
+    \item Questionario post-test per raccogliere impressioni complessive e feedback finali.
+\end{itemize}
+
+\section{Esecuzione dello Usability Test}
+Il test è condotto individualmente per ciascun utente, seguendo una serie di passaggi ben definiti:
+
+\begin{enumerate}
+    \item L'utente firma il modulo di consenso informato.
+    \item L'utente compila il questionario \textit{pre-test} per fornire dati anagrafici e altre informazioni generali.
+    \item Si raccolgono le idee iniziali degli utenti sulle loro prime impressioni.
+    \item Gli utenti eseguono i task richiesti dai facilitatori, mentre gli osservatori annotano le loro reazioni. A ogni partecipante viene chiesto di pensare ad alta voce, seguendo il metodo \textbf{THINK-ALOUD}.
+    \item Al termine dei task, vengono richieste ulteriori impressioni ai partecipanti.
+    \item Ogni utente compila il questionario \textit{post-test}, basato sul modello SUS (System Usability Scale).
+\end{enumerate}
+
+\section{Questionario Pre-Test}
+\subsection*{Domande}
+\begin{enumerate}
+    \item Come ti chiami?
+    \item Quanti anni hai?
+    \item Qual \`e l'ultimo titolo di studio che hai conseguito?
+    \item Come giudichi la tua esperienza d’uso con le app mobili?
+    \item Come giudichi la tua esperienza d'uso con i social media?
+    \item In media, quante ore alla settimana usi app mobili o tecnologie digitali?
+    \item Hai mai utilizzato app per la visita di musei?
+    \item Hai mai visitato un museo negli ultimi 12 mesi?
+    \item Durante una visita al museo, quali strumenti utilizzi di solito?
+\end{enumerate}
+
+\noindent Link al questionario: \url{https://g9dzinv68sa.typeform.com/to/mfIKDzUR}
+
+\section{Analisi dell’esecuzione dei task}
+Durante il test viene chiesto ai partecipanti di risolvere i task fondamentali riguardanti il progetto.\\
+Per ogni task si misura:
+\begin{itemize}
+    \item Il tempo di esecuzione;
+    \item Il numero di errori commessi;
+    \item Il numero di volte in cui \`e necessario l’intervento del facilitatore.
+\end{itemize}
+Gli errori vengono distinti in due categorie:
+\begin{itemize}
+    \item \textbf{Moderati}: errori minori che non compromettono in modo significativo l'esecuzione del task, ma possono causare piccoli ritardi o confusione temporanea. 
+    \item \textbf{Gravi}: errori che impediscono all'utente di completare il task o di individuare le informazioni necessarie.
+\end{itemize}
+
+\newpage
+
+\section{Task Assegnati}
+\subsection*{Task Semplice}
+"Ricerca e prenotazione di un museo da visitare in base alle proprie preferenze e all’affluenza corrente"
+\begin{itemize}
+    \item Ricerca di un museo;
+    \item Utilizzo dei filtri di ricerca;
+    \item Consultazione dell’affluenza del museo;
+    \item Prenotazione e acquisto del biglietto;
+    \item Ricerca del biglietto acquistato.
+\end{itemize}
+
+\subsection*{Task Moderato}
+"Personalizzazione della visita con audioguide (in base a preferenze e tempo disponibile) e utilizzo di Virtual Reality"
+\begin{itemize}
+    \item Personalizzazione del percorso;
+    \item Avvio del percorso;
+    \item Accesso all'audioguida e alla realt\`a virtuale;
+    \item Modifica del percorso.
+\end{itemize}
+
+\subsection*{Task Complesso}
+"Aggiunta delle opere a una galleria personale digitale, visualizzazione del modello 3D e condivisione con altri utenti"
+\begin{itemize}
+    \item Accesso alla galleria;
+    \item Creazione di una nuova galleria;
+    \item Aggiunta/rimozione opere;
+    \item Visualizzazione del modello 3D delle opere;
+    \item Condivisione del percorso;
+    \item Visualizzazione delle condivisioni degli altri utenti;
+    \item Scrivere una recensione al museo.
+\end{itemize}
+
+\section{Questionario Post-Test}
+Il questionario post-test \`e basato sul modello \textbf{SUS (System Usability Scale)}. Ad ogni partecipante viene data la possibilit\`a di scegliere un valore da 1 a 5, dove 1 corrisponde a "fortemente in disaccordo" e 5 a "molto d’accordo". I risultati vengono raccolti in maniera anonima.
+
+\subsection*{Domande}
+\begin{enumerate}
+    \item Penso che mi piacerebbe usare questo sistema frequentemente.
+    \item Ho trovato il sistema inutilmente complesso.
+    \item Penso che il sistema sia facile da usare.
+    \item Penso che avrei bisogno del supporto di una persona tecnica per poter utilizzare questo sistema.
+    \item Ho trovato le varie funzioni di questo sistema ben integrate.
+    \item Penso ci siano troppe incoerenze nel sistema.
+    \item Immagino che la maggior parte delle persone imparerebbe a usare questo sistema molto rapidamente.
+    \item Ho trovato il sistema molto pesante da usare.
+    \item Mi sono sentito molto sicuro nell'usare il sistema.
+    \item Ho avuto bisogno di imparare molte cose prima di poter iniziare a usare questo sistema.
+\end{enumerate}
+
+\noindent Link al questionario: \url{https://wlq33ve5j5s.typeform.com/to/vyJDAffI}
+
+\section{Script Usability Test}
+\subsection{Introduzione}
+Grazie per aver accettato di partecipare al test di usabilità della nostra applicazione. Il tuo contributo è fondamentale per aiutarci a migliorare l'applicazione, rendendola più intuitiva e semplice da usare.\\
+Prima di iniziare, ti chiediamo gentilmente di compilare un modulo di consenso informato. Questo documento spiega come utilizzeremo i dati raccolti durante il test e garantisce che le tue informazioni saranno trattate in modo riservato. Ricorda che puoi interrompere il test in qualsiasi momento senza fornire spiegazioni.\\
+Se hai domande prima di cominciare, non esitare a chiedere.
+
+\subsection{Prima parte: Introduzione e Quiz Anagrafico}
+Per iniziare, ti proporremo un breve quiz anagrafico per raccogliere alcune informazioni su di te e comprendere meglio il tuo background.\\
+Sei pronto per iniziare?
+
+\textbf{[Se l'utente conferma:]} Perfetto! Ti invierò un link al quiz. Una volta completato, ritorna pure da me per proseguire con il test.
+
+\subsection{Seconda parte: Test di Usabilità}
+\subsubsection{Osservazione iniziale della schermata home}
+Ti mostrerò per pochi secondi la schermata principale dell’applicazione. Per il momento, ti chiedo di non cliccare nulla ma solo di osservare attentamente.\\
+
+\textbf{Dopo 5 secondi:} 
+Stop. Vorrei sapere cosa ne pensi: riesci a intuire a cosa serve l’applicazione e per chi potrebbe essere utile?\\
+
+Ora potrai osservare di nuovo la schermata, questa volta con calma, ma sempre senza interagire.\\
+
+\textbf{Dopo 10 secondi:} 
+Cosa ne pensi adesso? Quali sono le tue prime impressioni? Dove pensi che inizieresti a navigare? E cosa ti aspetteresti che accada cliccando sui vari elementi?
+
+\subsubsection{Esplorazione guidata del prototipo}
+Adesso sei libero di esplorare il prototipo. Ti chiedo solo di pensare ad alta voce mentre interagisci: descrivi cosa fai, cosa noti e cosa pensi. Questo ci aiuterà a capire meglio come utilizzi l’applicazione e quali sono le tue aspettative. Durante il test ti guiderò chiedendoti di svolgere alcuni compiti specifici.
+
+\paragraph*{Task 1: Ricerca e prenotazione di un museo}
+Immagina di voler visitare un museo. Puoi mostrarmi cosa faresti per cercare un museo da visitare? Tieni a mente che si tratta di un prototipo, quindi alcune funzionalità potrebbero non essere pienamente operative. Ricordati di pensare ad alta voce e chiedimi pure se hai dubbi.\\
+
+\textbf{Dopo la ricerca:} 
+Hai trovato il museo che cercavi? Vuoi provare un altro metodo per effettuare la ricerca? Sei soddisfatto dei risultati?\\
+
+\textbf{Dopo la prenotazione:} 
+Riesci a trovare il biglietto che hai appena acquistato?\\
+
+\textbf{Dopo l'esecuzione:} 
+Cosa ne pensi? Hai trovato difficoltà nel completare il compito? Ci sono aspetti che ti sono piaciuti particolarmente o che potrebbero essere migliorati?
+
+\paragraph*{Task 2: Personalizzazione della visita con audioguide}
+Ora ti chiedo di creare un percorso personalizzato per la visita al museo.\\
+
+\textbf{Dopo la creazione del percorso:} 
+Riesci ad avviare il percorso che hai appena salvato? Come procederesti se volessi modificarlo?\\
+
+\textbf{Dopo l'esecuzione:} 
+Hai trovato difficoltà? C’è qualcosa che ti ha colpito positivamente o negativamente?
+
+\paragraph*{Task 3: Galleria personale e condivisione}
+Prova ad utilizzare la galleria personale. Cosa faresti per aggiungere o rimuovere un’opera dalla galleria?\\
+
+Se volessi condividere il tuo percorso o esplorare quelli condivisi da altri utenti, come procederesti?\\
+
+\textbf{Dopo l'esecuzione:} 
+Hai riscontrato difficoltà? Ci sono funzionalità che ti hanno particolarmente soddisfatto o che pensi potrebbero essere migliorate?
+
+\subsubsection{Esplorazione libera del prototipo}
+Ora puoi esplorare liberamente il prototipo, soffermandoti su funzionalità che ti incuriosiscono o tornando su aspetti già visti per approfondirli. Anche in questa fase, ti invitiamo a pensare ad alta voce per condividere con noi le tue impressioni.
+
+\subsection{Conclusione}
+Ora che hai osservato e interagito con il prototipo, ti invito a condividere eventuali impressioni, domande o osservazioni che non hai ancora espresso. Inoltre, ti chiedo di compilare il questionario che ti ho mandato per e-mail. Grazie mille per il tuo tempo e il tuo prezioso contributo. 
+
+\subsection{Domande utili durante l’utilizzo del prototipo}
+\begin{itemize}
+    \item A cosa stai pensando?
+    \item Cosa pensi dovresti fare in questa schermata?
+    \item Cosa ti aspetti che succeda cliccando questo bottone?
+    \item Qual \`e il tuo obiettivo in questo momento?
+    \item Ho notato che… a cosa stavi pensando in quel momento?
+    \item Cosa stai cercando?
+\end{itemize}
+
+\end{document}
+
+\end{document}
