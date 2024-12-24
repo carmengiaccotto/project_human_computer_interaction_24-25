@@ -62,7 +62,7 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 - Il prototipo assegnatoci è stato sviluppato dal gruppo **“Triple A double L”**. Il loro progetto, l'app **CommUnity**, mira a migliorare la comunicazione tra cittadini e amministrazione comunale, promuovendo partecipazione attiva e interazione costruttiva e aiutando il comune a monitorare lo stato e gli interessi dei cittadini per prendere decisioni ponderate.
 
 ### C6 - Usability Testing e Prototipo High Fidelity:
-- Questa fase è iniziata con l'analisi del report dei valutatori esterni, che segnalava le violazioni delle euristiche di usabilità del prototipo mid-fidelity. Ogni problematica è stata affrontata: le soluzioni implementate sono descritte nel report, mentre eventuali scelte di non intervento sono state motivate. Clicca [**qui**]() per leggere il report.
+- Questa fase è iniziata con l'analisi del report dei valutatori esterni, che segnala le violazioni delle euristiche di usabilità del prototipo mid-fidelity. Ogni problematica è stata affrontata: le soluzioni implementate sono descritte nel report, mentre eventuali scelte di non intervento sono state motivate. Clicca [**qui**]() per leggere il report.
 
 - Successivamente il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**]().
 
