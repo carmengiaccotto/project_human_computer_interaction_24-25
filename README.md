@@ -66,7 +66,7 @@ Il nostro progetto si propone di esplorare e sviluppare soluzioni innovative che
 
 - Il prototipo è stato perfezionato per essere completamente interattivo, adattabile e visivamente rifinito. [**Esplora il prototipo finale su Figma**]().
 
-- E' stata condotta una fase di Usability Testing con 7 adolescenti (16-19 anni), rappresentativi del target del progetto. Il lavoro svolto è documentato in una presentazione interattiva. Clicca [**qui**]() per accedervi. È inoltre disponibile il protocollo completo del test, comprensivo di script e questionari utilizzati. Clicca [**qui**]() per leggere il protocollo.
+- E' stata condotta una fase di Usability Testing con 7 adolescenti (16-19 anni), rappresentativi del target del progetto. Il lavoro svolto è documentato in una presentazione interattiva. Clicca [**qui**]() per accedervi. È inoltre disponibile il protocollo completo del test, comprensivo di script e questionari utilizzati. Clicca [**qui**](https://github.com/carmengiaccotto/project_human_computer_interaction_24-25/blob/main/C6/Protocollo_Script_Usability_Test.pdf) per leggere il protocollo.
 
 ### Presentazione finale del progetto:
 - La presentazione finale illustra la genesi del progetto, la progettazione, il raffinamento post valutazione euristica e i risultati dell’usability testing. Clicca [**qui**]() per accedervi.
