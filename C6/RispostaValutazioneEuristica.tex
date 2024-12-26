@@ -1,0 +1,489 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Impostazioni per la pagina
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\LARGE Documento in risposta alla valutazione euristica} \\[1em]
+    \textbf{\large Gruppo DesignersForCulture} \\[1.5em]
+    {\large 2 Dicembre 2024}
+\end{center}
+
+\section*{Introduzione}
+
+Dopo un'approfondita analisi della valutazione euristica condotta dal gruppo "The Screen Writers" sul nostro progetto, abbiamo riscontrato alcuni elementi che meritano di essere evidenziati. Sebbene la valutazione contenga spunti utili, sono emerse alcune criticità che hanno reso complessa l’interpretazione del feedback ricevuto. In particolare, rileviamo:
+\begin{itemize}
+    \item L’utilizzo di denominazioni non corrispondenti a quelle definite nel nostro prototipo, complicando l'identificazione delle schermate a cui si fa riferimento.
+    \item La consultazione poco approfondita del README, elemento fondamentale per comprendere il funzionamento generale dell’applicazione.
+    \item Un'eccessiva attenzione a funzionalità che non erano previste nella progettazione originaria, allontanandosi dall’obiettivo principale.
+\end{itemize}
+
+Come sottolineato a lezione, il focus prioritario del progetto è garantire la possibilità per l’utente di completare con successo tutti e tre i task principali scelti. Pertanto, abbiamo analizzato ogni osservazione alla luce di questo principio guida, apportando modifiche ove necessario e motivando le scelte effettuate. Di seguito riportiamo una risposta dettagliata per ciascun problema sollevato.
+
+\section*{Problemi e risposte}
+
+\noindent \textbf{Problema 1. H2 - Trovato da V2, V4} \\
+Dove: Per il task “Ricerca museo” nella pagina “cerca”. \\
+Cosa: L’indicatore percentuale dovrebbe essere accompagnato da un'etichetta chiara (es. "Affluenza attuale: 45\%"). \\
+Perché: Non è chiaro in quale momento è presente quella affluenza e nemmeno quando è stata aggiornata. \\
+Severity: 1
+
+\noindent \textbf{Risposta}: Il problema è stato risolto aggiungendo l’etichetta “Affluenza attuale:” per fornire un contesto chiaro all’utente.
+
+\noindent \textbf{Problema 2. H3 - Trovato da V4} \\
+Dove: Per il task semplice, nella pagina riguardante i filtri. \\
+Cosa: Il tasto x in alto a destra ti porta all’ultima pagina visitata e non alla pagina corretta (se uso il filtro, seleziono un posto sulla mappa e decido di uscire dal filtro l’applicazione mi manda di nuovo sulla mappa). \\
+Perché: Tornare alla mappa invece della schermata precedente può risultare frustrante e forzare l’utente a ripetere operazioni (es. riaprire il filtro o tornare alla ricerca). \\
+Severity: 4
+
+\noindent \textbf{Risposta}: È stata effettuata la modifica al prototipo per garantire che il tasto "x" riporti alla schermata corretta.
+
+\noindent \textbf{Problema 3. H5 - Trovato da V2, V3, V4, V5, V6} \\
+Dove: Per il task semplice, nella pagina di conferma prenotazione. \\
+Cosa: Nel caso venga premuto il pulsante “conferma” la prenotazione viene subito eseguita, sarebbe invece preferibile la presenza di un messaggio di conferma. \\
+Perché: Per prevenire prenotazioni accidentali. \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Dopo una lunga discussione di gruppo, è stato deciso di mantenere invariata la pagina di conferma della prenotazione, poiché è presente il tasto “Cancella prenotazione”, che permette di modificare un’eventuale prenotazione fatta erroneamente. Inoltre, solitamente la conferma viene richiesta solo su azioni “distruttive” (es. cancellazione di una prenotazione).
+
+\noindent \textbf{Problema 4. H7 - Trovato da V4} \\
+Dove: Per il task semplice, nella pagina riguardante i filtri. \\
+Cosa: Non sono presenti possibilità di riordino dei risultati ottenuti. \\
+Perché: Un’opzione per riordinare i risultati (es. per prezzo, distanza o affluenza) aumenterebbe l’efficienza. \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Poiché non era chiaro se il problema riguardasse il riordino dei risultati o l’aggiunta di nuovi filtri, il gruppo ha deciso di aggiungere un filtro per il prezzo e di permettere l'ordinamento in base all’affluenza, con opzioni di ordine crescente o decrescente.
+
+\noindent \textbf{Problema 5. H1 - Trovato da V4} \\
+Dove: Per il task Moderato, nella pagina “Personalizza la tua visita”. \\
+Cosa: L'app permette di selezionare il percorso senza però far capire all’utente quale percorso effettivamente verrà eseguito. \\
+Perché: Così l’utente può scegliere con più facilità il percorso che più gli interessa. \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Per il percorso predefinito sono state aggiunte anteprime tra i percorsi tra cui scegliere. Per gli altri percorsi, è stato deciso di non inserire anteprime, in quanto si basano su criteri personalizzati per ogni utente.
+
+\noindent \textbf{Problema 6. H4 - Trovato da V4} \\
+Dove: Per il task Moderato, nella pagina “Personalizza la tua visita”. \\
+Cosa: L’utente potrebbe risultare confuso durante la scelta del percorso “Tematico”. \\
+Perché: I pulsanti (es. "Rinascimento", "Impressionismo") sembrano selezionabili, ma non è immediatamente chiaro come funzionano rispetto alla scelta generale. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Il problema è stato risolto facendo in modo che i tasti selezionabili (es. "Rinascimento", "Impressionismo") appaiano solo quando viene spuntata la casella “Tematico”.
+
+\noindent \textbf{Problema 7. H7 - Trovato da V6} \\
+Dove: Per il task semplice “Ricerca/prenota museo”, nella schermata dei filtri di ricerca \\
+Cosa: Non è presente una spunta “seleziona tutti” in alcune categorie (e.g. opzioni di pagamento) e non è chiaro se di default è selezionata. \\
+Perché: Permette all’utente di essere più veloce qualora voglia selezionare tutte le possibili opzioni di una determinata categoria di filtro. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Abbiamo deciso di eliminare filtri superflui quali “Metodi di pagamento” per semplificare l’interfaccia.
+
+\noindent \textbf{Problema 8. H2, H4 - Trovato da V6} \\
+Dove: Per il task semplice “Ricerca/prenota museo”, nella barra orizzontale di scelta sotto la barra di ricerca \\
+Cosa: La label “affini”. \\
+Perché: Non è sufficientemente chiaro per cosa sta la parola “affini” in questa schermata, a differenza ad esempio di “selezionati per te” in Home. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Dopo una discussione con il gruppo, è stato deciso di togliere la label “affini”, in quanto non è così utile al fine del task di ricerca e prenotazione del museo.
+
+\noindent \textbf{Problema 9. H6 - Trovato da V6} \\
+Dove: Per il task semplice “Ricerca/prenota museo”, nella schermata di ricerca. \\
+Cosa: La label “visitato” e la spunta accanto ai nomi dei musei. \\
+Perché: Dato che quest’app permette di creare percorsi personalizzati (e.g. in base al tempo), l’utente dovrebbe avere modo di vedere immediatamente anche “quanto” ha visitato quel museo. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Questo è un aspetto non previsto nella progettazione iniziale, quindi si è deciso di non implementarlo poiché non rientra negli obiettivi principali dell’applicazione.
+
+\noindent \textbf{Problema 10. H8 - Trovato da V6} \\
+Dove: Per il task moderato “Crea/visualizza percorso personalizzato”, nella schermata di visualizzazione del percorso personalizzato durante la visita. \\
+Cosa: Il layout della schermata. \\
+Perché: La schermata, essendo utilizzata durante la visita, dovrebbe dare più rilevanza all’opera corrente ed al percorso da seguire successivamente, e lasciare in secondo piano il tempo rimanente e le impostazioni. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Abbiamo deciso di spostare la durata in basso, così da dare più rilevanza all’opera che si sta osservando e alla tappa successiva.
+
+\noindent \textbf{Problema 11. H1 – Trovato da: V1 e V5} \\
+Dove: Per il task “Ricerca museo”, nella pagina “Selezione preferiti” \\
+Cosa: Per passare alla schermata successiva l’app richiede di scorrere la pagina, segnalandolo solo con una scritta e l’indice della pagina è presente solo nella pagina “Selezione preferiti”. \\
+Perché: Una volta selezionati i propri preferiti non è abbastanza evidente che sia necessario scorrere la pagina per proseguire, inoltre i tre pallini mostrati nella pagina “Selezione preferiti” non vengono mostrati né nella pagina precedente né in quella successiva: l’utente potrebbe credere di aver saltato dei passaggi. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: È stato deciso di togliere i tre pallini in quanto effettivamente non erano utili in questo contesto. È stato inoltre aggiunto un pulsante per proseguire in alto a destra (call-to-action).
+
+\noindent \textbf{Problema 12. H1 – Trovato da: V1, V6} \\
+Dove: Per il task “Ricerca museo”, pagina Home \\
+Cosa: Il significato della sezione categorie è ambiguo in quanto il contesto non è sufficiente per capire che si riferisce ai musei (e non, per esempio, a delle opere, visto il posizionamento direttamente al di sotto della sezione “Galleria”). \\
+Perché: L’utente potrebbe essere portato a pensare, visto il posizionamento direttamente al di sotto di “la mia galleria”, che le categorie si riferiscano a delle opere e non ai musei. \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Abbiamo deciso di cambiare il titolo della sezione da “Categorie” a “Ricerca museo per categoria”.
+
+Ecco la continuazione del documento in LaTeX:
+
+```latex
+\noindent \textbf{Problema 13. H4 – Trovato da: V1, V5 ,V7} \\
+Dove: Per il task “Ricerca museo”, pagina Home \\
+Cosa: La barra di ricerca agisce come link alla pagina “Cerca” \\
+Perché: Il comportamento di una barra di ricerca dovrebbe essere quello di un campo di testo che, a seguito della pressione di un tasto invio, effettua la ricerca vera e propria. Il fatto che sembri un campo di testo ma si comporti come un bottone può lasciare l’utente frustrato perché richiede che esso venga premuto due volte per iniziare la ricerca vera e propria. \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Questo problema si riferisce più che altro ad una limitazione del prototipo. Cliccando sulla barra di ricerca della schermata “Home”, infatti, si potrà direttamente scrivere ciò che si vuole cercare. La schermata a cui si viene rimandati è la pagina dei risultati in base alla ricerca fatta precedentemente, mentre la barra di ricerca in alto serve nel caso in cui l’utente volesse fare un’altra ricerca.
+
+\noindent \textbf{Problema 14. H3 – Trovato da V5} \\
+Dove: Per il task “Ricerca museo”, nella pagina “Registrazione” \\
+Cosa: Per accedere all’app si deve scegliere se fare login o registrarsi \\
+Perché: Se io scelgo il bottone “login” ma volevo scegliere “registrati”, non c’è modo di tornare indietro senza riavviare l’applicazione \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Abbiamo deciso di inserire un bottone per tornare indietro sia nella pagina di login sia in quella dell’onboarding durante la registrazione.
+
+\noindent \textbf{Problema 15. H8 – Trovato da V1, V2, V4, V5} \\
+Dove: Per il task “Ricerca museo”, nella pagina “Home” \\
+Cosa: Presenza ridondante della sezione “La mia galleria” della pagina Home \\
+Perché: Questa sezione ha già un bottone di accesso apposito nella barra di controllo e rende meno evidente che i bottoni nella sezione “Categorie” sottostanti si riferiscono alla sezione “Selezionati per te” \\
+Severity: 3  
+
+\noindent \textbf{Risposta}: È stato deciso di mantenere la sezione “La mia galleria” nella sezione “Home”, in quanto questo rende gli utenti più consapevoli di poter usare questa funzione e li incentiva ad utilizzarla di più. Per quanto riguarda la sezione “Categorie”, come già stato segnalato, abbiamo già modificato il titolo.
+
+\noindent \textbf{Problema 16. H7 – Trovato da V7} \\
+Dove: Schermata “filtri” \\
+Cosa: L’opzione “Vicino a me” \\
+Perché: “Vicino a me” dovrebbe essere separato dai filtri, magari visualizzando la mappa si potrebbero applicare i filtri sui luoghi mostrati, al momento il funzionamento non è chiaro dato che manca ad esempio la possibilità di specificare il raggio di ricerca \\
+Severity: 3
+
+\noindent \textbf{Risposta}: Abbiamo deciso di aggiungere la funzionalità di definizione del raggio di ricerca all'interno della mappa, migliorando la chiarezza e l'usabilità dell’opzione “Vicino a me”.
+
+\noindent \textbf{Problema 17. H4 – Trovato da V2, V4, V5} \\
+Dove: Per il task “Ricerca museo”, nella pagina “Cerca museo/esposizione” \\
+Cosa: La lingua utilizzata nel testo del bottone “view” della pagina \\
+Perché: In tutti gli altri bottoni dell’applicazione viene utilizzato l’italiano per indicare il contenuto di un elemento interagibile. \\
+Severity: 1 
+
+\noindent \textbf{Risposta}: Il testo del bottone è stato modificato da “View” a “Visualizza dettagli”, assicurando coerenza linguistica all’interno dell’applicazione.
+
+\noindent \textbf{Problema 18. H1 – Trovato da V1, V2, V3, V5} \\
+Dove: pagina Cerca \\
+Cosa: Il riquadro con la stella e le valutazioni agisce come link alle recensioni di un museo, ma non è molto chiaro che sia effettivamente premibile \\
+Perché: Il tasto non lascia intendere la sua funzionalità in modo sufficientemente evidente per via del colore poco opaco, per renderlo più evidente si potrebbe inserire tra parentesi il numero di recensioni presenti \\
+Severity: 2
+
+\noindent \textbf{Risposta}: Abbiamo deciso di implementare un'animazione che cambia il colore del bottone a un tono più scuro al passaggio del mouse, indicando all’utente che l’elemento è interattivo. Qualora l’animazione non fosse implementabile, si potrebbe aggiungere un testo esplicativo, come “Clicca per le recensioni”.
+
+\noindent \textbf{Problema 19. H7 – Trovato da V7} \\
+Dove: Per il task “Ricerca museo”, Schermata “home” \\
+Cosa: Manca un riassunto delle prossime prenotazioni/visite \\
+Perché: Aprendo la schermata “prenotazioni” risulta scomodo confrontare manualmente le date di tutte le prossime visite e non è chiaro quanto manca dal giorno corrente. Potrebbe essere utile avere una sezione della schermata che raccoglie le visite imminenti. \\
+Severity: 1 \\
+\textbf{Risposta}: Questa funzionalità non è stata implementata, in quanto rientra tra le caratteristiche aggiuntive non previste nella progettazione originaria. Il gruppo ha deciso di mantenere la gestione delle prenotazioni nella schermata dedicata, evitando di inserire ulteriori elementi nella “Home” che risulterebbero vuoti in assenza di prenotazioni attive.
+
+\noindent \textbf{Problema 20. H1 – Trovato da V5} \\
+Dove: Per il task “Ricerca museo”, nella pagina “Conferma prenotazione” \\
+Cosa: Il testo “conferma prenotazione” all’inizio della pagina \\
+Perché: il testo “conferma prenotazione” non comunica abbastanza chiaramente all’utente che la sua prenotazione è stata effettivamente confermata e non è necessario fare altro. Sarebbe più efficace un testo simile a “la tua prenotazione è stata confermata”. \\
+Severity: 2 \\
+\textbf{Risposta}: Il testo “Conferma prenotazione” è stato modificato in “La tua prenotazione è stata confermata”, rendendo più chiaro lo stato dell’azione completata.
+
+\noindent \textbf{Problema 21. H2 – Trovato da V7} \\
+Dove: Schermata “filtri” \\
+Cosa: Opzioni di pagamento \\
+Perché: Le opzioni di pagamento non dovrebbero trovarsi nella schermata dei filtri con lo stesso layout, il pagamento andrà sicuramente gestito dopo aver prenotato la visita \\
+Severity: 3 \\
+\textbf{Risposta}: Dopo un'attenta valutazione, abbiamo deciso di eliminare i filtri relativi al pagamento. Tale scelta semplifica il flusso utente, permettendo di concentrarsi esclusivamente sulla selezione del percorso. Il pagamento sarà gestito separatamente nella fase successiva, rendendo l’interfaccia più chiara e intuitiva.
+
+\noindent \textbf{Problema 22. H1 – Trovato da V1} \\
+Dove: pagina Filtra ricerca \\
+Cosa: Non è chiaro il compito svolto dalla barra di testo “inserisci parola chiave” superiore dentro la pagina “filtra ricerca” \\
+Perché: Il testo della barra di ricerca cambia, e non è chiaro se sia una ricerca all’interno dei filtri o se è una replica della barra di ricerca vista sul menu “cerca” \\
+Severity: 3 \\
+\textbf{Risposta}: Abbiamo deciso di rimuovere la barra di testo “Inserisci parola chiave”. La funzione di filtro può essere svolta efficacemente attraverso le categorie già presenti nella parte inferiore della schermata, migliorando la coerenza e riducendo la confusione.
+
+\noindent \textbf{Problema 23. H2, H4 – Trovato da V1, V2, V4, V5} \\
+Dove: Per il task “Personalizza la tua visita”, nella pagina “Personalizza la tua visita” \\
+Cosa: i bottoni che ti permettono di selezionare il tuo percorso \\
+Perché: le opzioni per scegliere il percorso non sono consistenti perché non seguono la stessa logica: ci sono alcuni bottoni come “Predefinito” e “Ordine cronologico” e “Secondo i tuoi interessi” che sono mutuamente esclusivi tra loro e mostrano all’utente il tipo di percorso che andrà a seguire durante la visita. Con lo stesso layout sono selezionabili le opzioni “Utilizza supporti AR/VR” e “Utilizza audioguida” che non rappresentano un tipo di percorso, ma sono uno strumento di supporto da abbinare al percorso selezionato, come dimostrato dalla schermata successiva dell’applicazione, che separa le selezioni in due gruppi: “Supporto selezionato” e “Contenuto del percorso”. È inoltre preferibile, per le scelte non mutualmente esclusive, l’uso di checkbox al posto di radio button per chiarire il fatto che si possa sceglierne più di uno. \\
+Severity: 4 \\
+\textbf{Risposta}: Le opzioni di percorso esclusivo sono state separate da quelle relative ai supporti. Abbiamo introdotto checkbox per le selezioni multiple, mantenendo i radio button per i percorsi esclusivi. Questo approccio migliora la chiarezza e l’usabilità.
+
+\noindent \textbf{Problema 24. H3, H4 – Trovato da V1, V2, V4, V5, V6} \\
+Dove: Per il task “Personalizza la tua visita”, nella pagina “Riepilogo percorso” \\
+Cosa: La mancanza di un bottone “indietro” per tornare alla schermata per scegliere il tuo percorso \\
+Perché: Per dare all’utente la possibilità di modificare le preferenze relative al percorso senza dover tornare alla schermata “prenotazioni” \\
+Severity: 3 \\
+\textbf{Risposta}: Abbiamo introdotto un tasto “Modifica visita” nella schermata riassuntiva, consentendo all’utente di tornare direttamente alla pagina di personalizzazione per apportare modifiche al percorso o ai supporti selezionati.
+
+\noindent \textbf{Problema 25. H7 – Trovato da V1} \\
+Dove: pagina Riepilogo percorso e pagina Percorso personalizzato \\
+Cosa: L’applicazione non permette l’espansione della mappa \\
+Perché: è necessario permettere all’utente di vedere la mappa del proprio percorso in una visualizzazione a tutto schermo per via della dimensione ridotta del testo e dei dettagli su questo tipo di documenti \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo introdotto una funzionalità che consente di espandere la mappa a schermo intero, migliorando la leggibilità e facilitando l’esplorazione del percorso.
+
+\noindent \textbf{Problema 26. H4 – Trovato da V1, V7} \\
+Dove: pagina Percorso personalizzato \\
+Cosa: Premere sul tasto indietro quando si è all’interno di una tab diversa della pagina (e.g.: tappa corrente o percorso completo) fa sì che l’app torni alla tab precedente anziché uscire dalla pagina come solitamente accade. La stessa cosa accade con la pagina “impostazione visita” quando si preme su uno dei tasti in basso per poi provare ad andare indietro. \\
+Perché: il tasto indietro dovrebbe uscire dalla pagina, non dovrebbe tornare indietro di una tab o riaprire menu già chiusi. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo aggiornato il comportamento del tasto “Indietro” per farlo uscire dalla pagina principale, assicurando una navigazione coerente in tutte le sezioni.
+
+\noindent \textbf{Problema 27. H4 – Trovato da V7} \\
+Dove: Schermata “prenotazioni” e poi su “vedi dettagli” \\
+Cosa: Dettagli sul percorso prenotato \\
+Perché: Non è mostrato quale percorso è stato scelto per quella prenotazione \\
+Severity: 2 \\
+\textbf{Risposta}: La schermata “Prenotazioni” è progettata per fornire informazioni gestionali come data, ora e stato della prenotazione. Dettagli sui percorsi selezionati sono visualizzabili nelle sezioni dedicate, come “Percorso personalizzato”.
+
+\noindent \textbf{Problema 28. H4 – Trovato da V3, V7} \\
+Dove: Schermata “Le mie prenotazioni” e schermata “La mia galleria” \\
+Cosa: La freccia per tornare in alto a sinistra \\
+Perché: Non dovrebbe essere presente dato che non c'è nessuna schermata a cui tornare indietro \\
+Severity: 3 \\
+\textbf{Risposta}: Abbiamo rimosso il bottone “Torna indietro” da queste schermate, che sono facilmente accessibili tramite la toolbar inferiore, rendendo l’interfaccia più pulita e coerente.
+
+\noindent \textbf{Problema 29. H5 – Trovato da V1} \\
+Dove: pagina Percorsi \\
+Cosa: La dimensione del tasto condividi è troppo piccola \\
+Perché: Il bottone “condividi” è troppo piccolo e, visto il posizionamento al di sopra di una card interattiva, porta l’utente ad entrare nella sezione errata quando vorrebbe condividere il percorso. \\
+Severity: 2 \\
+\textbf{Risposta}: La dimensione del tasto “Condividi” è stata aumentata e il suo posizionamento è stato ottimizzato per evitare interferenze con altri elementi interattivi, migliorando l’esperienza utente.
+
+\noindent \textbf{Problema 30. H8 – Trovato da V1} \\
+Dove: Pagina Valutazione post visita \\
+Cosa: Il drop down che permette di scegliere la nazione d’origine dell’utente \\
+Perché: Non è necessario chiedere sempre la nazionalità dell’utente in quanto è una caratteristica dell’utente che tendenzialmente non cambia. Sarebbe più opportuno che venisse gestita da una pagina separata (ad esempio nelle impostazioni dell’account) \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo deciso di rimuovere la selezione della nazione dal prototipo. In futuro, la nazionalità verrà recuperata automaticamente dai dati forniti in fase di registrazione o dalle impostazioni dell’account, evitando richieste ripetitive che potrebbero generare confusione o frustrazione nell’utente.
+
+\noindent \textbf{Problema 31. H4 – Trovato da V1, V4, V7} \\
+Dove: Pagina Percorso personalizzato \\
+Cosa: I tasti “audioguida” e “salva in collezione” \\
+Perché: I tasti non sono consistenti con il resto dell’interfaccia: solitamente i bottoni secondari sono bianchi, mentre in questo punto dell’app sono grigi. L’utente potrebbe essere confuso da questa scelta di colore in quanto i colori tendenti al grigio sono solitamente associati ad un elemento non attivo. \\
+Severity: 1 \\
+\textbf{Risposta}: I colori dei tasti “Audioguida” e “Salva in collezione” sono stati modificati per renderli coerenti con il design generale dell’interfaccia, migliorando la chiarezza visiva e l’esperienza utente.
+
+\noindent \textbf{Problema 32. H7 – Trovato da V1} \\
+Dove: Pagina Percorso personalizzato \\
+Cosa: L’anteprima del dipinto \\
+Perché: Sarebbe utile se si potesse premere sul dipinto per arrivare alla schermata dedicata alle sue informazioni senza dover lasciare la schermata del percorso. \\
+Severity: 2 \\
+\textbf{Risposta}: L’idea di rendere l’anteprima cliccabile è stata respinta per favorire un’esperienza museale più autentica. L’interazione con le opere è volutamente limitata per incoraggiare l’utente a raccogliere informazioni direttamente al museo, evitando un’eccessiva virtualizzazione.
+
+\noindent \textbf{Problema 33. H10, H2 – Trovato da V4, V5} \\
+Dove: In ogni schermata dove vengono nominati AR e VR come strumenti utilizzabili \\
+Cosa: la mancanza di documentazione nelle schermate dove si possono selezionare AR e VR come supporti \\
+Perché: la realtà virtuale e il visore a realtà aumentata sono tecnologie relativamente recenti, e quindi non conosciute da molti. Pertanto, sarebbe necessario avere a disposizione nelle schermate dell’applicazione informazioni riguardo a cosa sono queste tecnologie e al loro utilizzo, sia per rendere la scelta di utilizzare questi supporti più consapevole, sia per specificare in quale sia il loro ruolo dedicato nella visita al museo. \\
+Severity: 4 \\
+\textbf{Risposta}: Abbiamo migliorato il processo di onboarding dell’app, fornendo all’utente indicazioni chiare e mirate sull’utilizzo delle tecnologie principali, incluse AR e VR, durante l’avvio dell’applicazione.
+
+\noindent \textbf{Problema 34. H1, H2, H5 – Trovato da V1, V4, V5, V6, V7} \\
+Dove: Per il task “Modifica galleria”, pagina La mia galleria \\
+Cosa: Premendo su “Vista 3d” compare un menù “Dettagli sull’opera” \\
+Perché: Il tasto, che visto il linguaggio lascerebbe intuire la presenza di una vista 3d collettiva di tutte le opere nella galleria selezionata, porta invece ad un menù su cui si può vedere una singola opera. La pagina non mostra alcun tipo di funzionalità per muoversi da un’opera all’altra. \\
+Severity: 4 \\
+\textbf{Risposta}: Il tasto “Vista 3D” è stato rimosso per evitare confusione. Ora, le opere che supportano la vista 3D sono contraddistinte da un’icona specifica che ne chiarisce la funzionalità, migliorando l’esperienza utente.
+
+\noindent \textbf{Problema 35. H6, H9 – Trovato da V5} \\
+Dove: Per il task “Modifica galleria”, nella pagina “Aggiungi alla galleria” \\
+Cosa: La mancanza del titolo della galleria in cui si vogliono aggiungere nuove opere \\
+Perché: Entrare nella schermata dove puoi aggiungere opere senza avere il riferimento alla galleria precedente può confondere l’utente, costringendolo a tornare indietro e ripetere la procedura, oppure può non permettere di accorgersi di essere entrato in una galleria diversa per errore. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo aggiunto il titolo della galleria in tutte le schermate di modifica, per ricordare all’utente quale galleria sta modificando e migliorare il contesto operativo.
+
+\noindent \textbf{Problema 35. H6, H9 – Trovato da V5} \\
+Dove: Per il task “Modifica galleria”, nella pagina “Aggiungi alla galleria” \\
+Cosa: La mancanza del titolo della galleria in cui si vogliono aggiungere nuove opere \\
+Perché: Entrare nella schermata dove puoi aggiungere opere senza avere il riferimento alla galleria precedente può confondere l’utente, costringendolo a tornare indietro e ripetere la procedura, oppure può non permettere di accorgersi di essere entrato in una galleria diversa per errore. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo aggiunto il titolo della galleria in tutte le schermate di modifica, per ricordare all’utente quale galleria sta modificando e migliorare il contesto operativo.
+
+\noindent \textbf{Problema 36. H2 – Trovato da V1, V5, V6} \\
+Dove: Per il task “Modifica galleria”, nella pagina “La mia galleria” \\
+Cosa: Il nome della pagina si chiama “la mia galleria” ma al suo interno contiene più gallerie. Inoltre anche le gallerie condivise sono comunque gallerie: sarebbe più appropriato, a seconda dell’intento, utilizzare al posto di “Gallerie” il termine “Tutte” oppure “Private” \\
+Perché: Il fatto che la pagina si riferisca alla galleria al singolare e al suo interno invece contenga molteplici gallerie suddivise in modo non naturale, crea confusione nell’utente perché l’organizzazione delle informazioni non segue una logica naturale \\
+Severity: 2 \\
+\textbf{Risposta}: La dicitura “La mia galleria” è stata modificata in “Le mie gallerie”. Inoltre, la categoria “Gallerie” è stata rinominata in “Tutte” per includere sia le gallerie private sia quelle condivise.
+
+\noindent \textbf{Problema 37. H8 – Trovato da V1} \\
+Dove: Task complesso, pagina Crea una galleria, Aggiungi alla galleria \\
+Cosa: L’immagine di profilo e il nome dell’account \\
+Perché: Le due componenti dell’interfaccia sono informazioni superflue durante il processo di creazione di una nuova galleria o di aggiunta ad una esistente, perché l’account non cambia una volta eseguito il login ed il nome dell'account è visibile nella pagina precedente. \\
+Severity: 1 \\
+\textbf{Risposta}: L’immagine di profilo e il nome dell’account sono stati mantenuti per ragioni estetiche e per offrire continuità visiva all’utente, garantendo un’esperienza coerente con il resto dell’app.
+
+\noindent \textbf{Problema 38. H7 - Trovato da V4} \\
+Dove: Per il task “Crea/Visualizza gallerie”, nella pagina “Aggiungi alla galleria”. \\
+Cosa: Non è presente l’icona che permette all’utente di aggiungere tramite scansione. \\
+Perché: La funzione di aggiunta automatica di opere tramite QR code potrebbe creare confusione se non è chiaro quando e dove vengono aggiunte (è presente solo nella sezione “percorsi”), se invece uno volesse creare direttamente la galleria senza seguire il percorso non gli è possibile scannerizzare l’opera. \\
+Severity: 1 \\
+\textbf{Risposta}: L’aggiunta tramite QR code è stata mantenuta esclusiva ai percorsi per preservare la coerenza dell’esperienza. Abbiamo aggiunto un pulsante “Info” per spiegare questa scelta agli utenti.
+
+\noindent \textbf{Problema 39. H1, H9 - Trovato da V4, V5} \\
+Dove: Per il task “Crea/Visualizza gallerie” e “aggiungi le opere”, nella pagina “Aggiungi alla galleria”. \\
+Cosa: Se la galleria viene creata oppure non può essere creata o la funzione non è disponibile (es. per mancanza di connessione), non viene mostrato nessun messaggio chiaro del tipo “Non è possibile completare questa azione al momento”, e nemmeno un messaggio di conferma del tipo “galleria creata con successo”. \\
+Perché: Potrebbero esserci degli errori durante la creazione o l’utente potrebbe non aver capito di averla creata a causa della limitata visibilità del sistema. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo implementato messaggi chiari che confermano l’esito positivo o negativo dell’operazione. Ad esempio, quando una galleria viene creata con successo, compare un messaggio di conferma.
+
+\noindent \textbf{Problema 40. H8 – Trovato da V5} \\
+Dove: Per tutti i task, nella barra di controllo \\
+Cosa: Presenza del colore marrone per evidenziare che una schermata è quella corrente \\
+Perché: Le schermate non correnti sono di colore nero e quindi risaltano di più di quella corrente. \\
+Severity: 1 \\
+\textbf{Risposta}: Abbiamo deciso di mantenere il marrone come colore principale per la schermata attiva, in quanto è parte integrante del nostro pattern cromatico e rappresenta l’identità visiva dell’app. Questa scelta contribuisce a una coerenza visiva e rafforza il brand, pur riconoscendo la necessità di bilanciare visibilità e design.
+
+\noindent \textbf{Problema 41. H4 - Trovato da V1, V5} \\
+Dove: Task complesso, pagina Crea una galleria, Aggiungi alla galleria \\
+Cosa: Sono presenti due tasti che compiono la stessa operazione \\
+Perché: L’utente potrebbe essere confuso dalla presenza di due bottoni che sembrano compiere due azioni diverse ma che in realtà compiono la stessa \\
+Severity: 2 \\
+\textbf{Risposta}: I due tasti non compiono la stessa operazione, ma svolgono funzioni distinte. Pertanto, la configurazione attuale è stata mantenuta per rispettare il design previsto.
+
+\noindent \textbf{Problema 42. H4 - Trovato da V6} \\
+Dove: Per il task difficile “Crea/visualizza gallerie”, nella schermata di aggiunta di una foto ad una galleria. \\
+Cosa: I tasti “annulla” e “aggiungi”. \\
+Perché: Sono simili e non abbastanza distinti. \\
+Severity: 2 \\
+\textbf{Risposta}: Il testo e l’icona all’interno dei pulsanti sono intuitivi e distintivi. Pertanto, non è stata apportata alcuna modifica alla configurazione attuale.
+
+\noindent \textbf{Problema 43. H6 – Trovato da V4, V5} \\
+Dove: Per il task “Modifica galleria”, nella pagina “Aggiungi alla galleria” \\
+Cosa: La mancanza di informazioni relative alle opere scannerizzate con il Codice QR e che ti vengono proposte da aggiungere, ad esempio in che museo l’opera è stata scannerizzata, il suo autore o informazioni relative al movimento artistico. \\
+Perché: L’utente potrebbe voler creare delle gallerie basandosi su criteri diversi dall’estetica dell’opera, e non avere a portata di mano le informazioni relative ai contenuti può risultare frustrante, per l’operazione macchinosa di dover cercare queste ultime in altre schermate. \\
+Severity: 4 \\
+\textbf{Risposta}: Abbiamo deciso di implementare un overlay animato che si apre cliccando sull’icona associata a ogni opera, mostrando i dettagli rilevanti. Questa soluzione migliorerà l’accesso alle informazioni senza sovraccaricare l’interfaccia principale.
+
+\noindent \textbf{Problema 44. H7 – Trovato da V1, V4, V7} \\
+Dove: Task complesso, Pagina crea galleria, aggiungi alla galleria, nuova galleria \\
+Cosa: Schermata in generale \\
+Perché: Mancano opzioni per cercare e filtrare le opere: questo può rendere l’operazione eccessivamente laboriosa se l’utente ha un numero notevole di opere nella propria galleria. \\
+Severity: 3 \\
+\textbf{Risposta}: Abbiamo deciso di aggiungere filtri alla schermata per facilitare la selezione delle opere, migliorando l’efficienza e la flessibilità dell’utilizzo.
+
+\noindent \textbf{Problema 45. H10 – Trovato da V1} \\
+Dove: Task complesso, pagina Galleria \\
+Cosa: Schermata in generale \\
+Perché: Per un utente che non ha letto il readme non è chiaro che funzione svolga la pagina galleria: dal momento che il termine è spesso utilizzato per indicare una raccolta di foto scattate dall’utente, una persona che utilizza l’applicazione per la prima volta potrebbe non comprendere il fatto che si tratti di una raccolta di foto “collezionate” scannerizzando QR code non essendoci alcuna indicazione di questo aspetto, nemmeno durante l’onboarding. \\
+Severity: 4 \\
+\textbf{Risposta}: Il termine “Galleria” e il contesto in cui si trova sono intuitivi e autoesplicativi, pertanto non sono necessarie modifiche al design attuale.
+
+\noindent \textbf{Problema 46. H9 – Trovato da V7} \\
+Dove: Schermata “La mia galleria” \\
+Cosa: Mancanza label/icona che indica se una galleria è condivisa o privata \\
+Perché: Non è chiaro se una galleria è condivisa o solo privata, né durante la creazione né per le gallerie già esistenti. \\
+Severity: 3 \\
+\textbf{Risposta}: Abbiamo deciso di integrare un’icona a forma di lucchetto per rendere evidente lo stato di condivisione di ogni galleria.
+
+\noindent \textbf{Problema 47. H1 – Trovato da V1} \\
+Dove: Task complesso, pagina La mia galleria \\
+Cosa: Non è chiaro il ruolo svolto dal tasto “Aggiungi alla galleria” \\
+Perché: Il posizionamento e la mancanza di un’etichetta chiara non permettono all’utente di comprendere quale sia l’operazione svolta dal tasto “+” nell’angolo destro della galleria. Potrebbe, ad esempio, venire interpretato come un tasto “vedi di più”. \\
+Severity: 3 \\
+\textbf{Risposta}: Il problema è ridondante con il Problema 42. Il testo e l’icona all’interno del pulsante sono sufficientemente chiari.
+
+\noindent \textbf{Problema 48. H1 – Trovato da V7} \\
+Dove: Schermata “La mia galleria” \\
+Cosa: Le gallerie create \\
+Perché: Non sono visualizzati i like e le condivisioni per ogni galleria/opera, c’è solo un totale in alto alla pagina \\
+Severity: 2 \\
+\textbf{Risposta}: Non intendiamo implementare questa funzionalità per differenziare l’app da un social network, mantenendo un focus diverso.
+
+\noindent \textbf{Problema 49. H2, H7 – Trovato da V7} \\
+Dove: Schermata galleria “Le mie preferite” \\
+Cosa: Mancanza label/tasto “Vista 3D” \\
+Perché: Il label “Vista 3D” non è mostrato di fianco alle opere per cui è disponibile, né guardando la galleria né dopo aver cliccato un’opera per vederla in dettaglio. \\
+Severity: 1 \\
+\textbf{Risposta}: Questo problema è stato risolto con l’implementazione descritta nel Problema 34.
+
+\noindent \textbf{Problema 50. H7 Flessibilità ed efficienza d’uso} \\
+Dove: Schermata galleria “Le mie preferite” \\
+Cosa: Mancanza tasto “elimina galleria” \\
+Perché: Esiste solo il tasto per rimuovere le opere ma non quello per eliminare l’intera galleria. Non è chiaro se è possibile eliminare una galleria rimuovendo tutte le opere all’interno o se una volta creata la galleria non si può più eliminare \\
+Severity: 4 \\
+\textbf{Risposta}: Abbiamo aggiunto un tasto “Elimina galleria” accessibile una volta selezionata la specifica galleria, migliorando la gestione e la flessibilità.
+
+\noindent \textbf{Problema 51. H7 - Trovato da V4} \\
+Dove: Per il task Complesso, nella pagina “Galleria” \\
+Cosa: Non sono presenti personalizzazioni per le varie gallerie. \\
+Perché: Consentire agli utenti più esperti di organizzare gallerie con funzioni avanzate, come la creazione di categorie personalizzate o l’aggiunta di annotazioni alle opere può risultare molto piacevole. \\
+Severity: 0 \\
+\textbf{Risposta}: La personalizzazione della galleria è già presente. Durante la visita, l’utente può non solo scannerizzare il codice QR per salvare le opere, ma anche annotare commenti personali. Inoltre, una volta aperta un’opera dalla galleria, l’utente potrà vedere sia i propri commenti sia la descrizione generale dell’opera fornita dal sistema.
+
+\noindent \textbf{Problema 52. H4 - Trovato da V4} \\
+Dove: Per il task Complesso, nella pagina “Le mie preferite” \\
+Cosa: L'utente potrebbe sentirsi disorientato durante la visualizzazione delle opere, non sapendo come accedere a una visualizzazione più dettagliata. \\
+Perché: Le opere stesse non sembrano selezionabili. \\
+Severity: 3 \\
+\textbf{Risposta}: Come in qualsiasi galleria fotografica su telefono, le opere sono selezionabili per visualizzarle nel dettaglio. Nell’applicazione, cliccando sull’immagine si accede a una visualizzazione con l’immagine ingrandita, la descrizione dell’opera e i commenti personali dell’utente.
+
+\noindent \textbf{Problema 53. H4 - Trovato da V3, V4} \\
+Dove: Per il task Complesso, nella pagina “Aggiungi alla galleria” \\
+Cosa: Il design non è stato ottimizzato, causando la sovrapposizione dell'isoletta del simulatore a parti del contenuto, rendendole di conseguenza illeggibili. \\
+Perché: Il layout dovrebbe essere progettato in modo responsivo e mantenere una coerenza visiva con lo stile delle altre pagine, evitando sovrapposizioni e garantendo un’esperienza utente fluida ad esempio l’intestazione e i pulsanti “Annulla” e “Crea” in fondo alla pagina non sono fissi ma scorrono con essa. Nel caso in cui la pagina fosse molto lunga (e in questo caso la possibilità è presente, basterebbe avere molte opere scansionate) bisognerebbe scorrerla tutta per arrivare ai pulsanti, rendendo il processo poco efficiente. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo risolto il problema rendendo i pulsanti “Annulla” e “Crea” fissi, garantendo una migliore esperienza utente.
+
+\noindent \textbf{Problema 54. H1 – Trovato da V7} \\
+Dove: Schermata “Percorso personalizzato”, percorsi>inizia visita>Impostazioni visita>Percorso personalizzato \\
+Cosa: I due tasti “applica modifiche” e “riprendi percorso” \\
+Perché: Manca il feedback dopo aver svolto le azioni \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo inserito una schermata di feedback per il tasto “Applica modifiche”, migliorando la chiarezza.
+
+\noindent \textbf{Problema 55. H4 – Trovato da V5} \\
+Dove: Nella schermata successiva all’interazione con il bottone “impostazioni visita” \\
+Cosa: I bottoni “freccia indietro” e “riprendi percorso” \\
+Perché: Entrambi i bottoni ti riportano alla schermata precedente e hanno testo e layout diverso, questo può portare confusione all’utente. \\
+Severity: 2 \\
+\textbf{Risposta}: Abbiamo eliminato il bottone “Riprendi percorso”. L’utente potrà cliccare sulla freccia in alto a sinistra per tornare indietro senza salvare modifiche, mentre il pulsante “Salva modifiche” rimane per completare l’azione.
+
+\noindent \textbf{Problema 56. H4 – Trovato da V5} \\
+Dove: Nella schermata successiva all’interazione con il bottone “impostazioni visita” \\
+Cosa: Il titolo della schermata \\
+Perché: Il titolo della schermata è “percorso personalizzato”, ma dovrebbe essere “impostazioni visita”, coerente con il pulsante premuto alla schermata precedente. \\
+Severity: 1 \\
+\textbf{Risposta}: Abbiamo cambiato il titolo della schermata in “Impostazioni visita” per maggiore coerenza.
+
+\noindent \textbf{Problema 57. H4 – Trovato da V2, V3} \\
+Dove: Per il task semplice, nella sezione “Cerca” \\
+Cosa: L’indicatore “Visitato/Non Visitato” ricorda un pulsante di selezione più che un indicatore. In questo prototipo, inoltre, la stessa figura è stata utilizzata nella pagina “Aggiungi alla galleria” (accessibile dalla sezione “Galleria”, cliccando sul tasto “+”) come un pulsante di selezione. \\
+Perché: L’utilizzo di questa figura non è coerente nei due utilizzi, in più, generalmente la figura in questione è usata come selezione e non come indicatore. \\
+Severity: 1 \\
+\textbf{Risposta}: Abbiamo eliminato l’indicatore lasciando solo l’etichetta per chiarire la funzione.
+
+\noindent \textbf{Problema 58. H2 – Trovato da V3} \\
+Dove: Per il task semplice, nella sezione “Cerca” e per il task complesso e nella pagina “Crea una galleria” della sezione “Galleria” \\
+Cosa: Il pulsante per passare alla schermata successiva è poco pratico. \\
+Perché: Generalmente per compiere l’azione assegnata a un pulsante che passa alla schermata successiva basta cliccare sull’intero riquadro. In questo caso, questa azione non segue la convenzione utilizzata dalla maggioranza dei prodotti sul mercato. \\
+Severity: 1 \\
+\textbf{Risposta}: Non ci è chiaro quale sia il problema, quindi non siamo in grado di fornire una risposta adeguata. Suggeriamo una spiegazione più dettagliata per poter intervenire in modo appropriato.
+
+\noindent \textbf{Problema 59. H4 – Trovato da V3} \\
+Dove: Per il task semplice, nella pagina del museo e di prenotazione della visita \\
+Cosa: Nei dettagli presenti nella pagina del museo sono presenti diversi tipi di biglietti (intero e ridotto), ma nella pagina di prenotazione è possibile solo selezionare la quantità e non il tipo di biglietto. \\
+Perché: La pagina del museo presenta diverse tipologie di biglietto acquistabili ma al momento della prenotazione questa possibilità non è più data, lasciando all’utente solo l’opzione di selezionare il numero di biglietti da voler acquistare. \\
+Severity: 4 \\
+\textbf{Risposta}: Permetteremo la selezione della tipologia di biglietto anche nella schermata di prenotazione.
+
+\noindent \textbf{Problema 60. H4 – Trovato da V2} \\
+Dove: Task Semplice, pagina ”Cerca” \\
+Cosa: Pulsante delle recensioni presente a sinistra. \\
+Perché: Il pulsante è presente soltanto a sinistra, ma gli utenti tendono a interagire con pulsanti posizionati a destra dello schermo (sia per una maggiore prevalenza di utenti destrorsi, sia per abitudine consolidata dal mercato). \\
+Severity: 1 \\
+\textbf{Risposta}: Il pulsante è posizionato a sinistra per lasciare spazio all’etichetta presente a destra.
+
+\noindent \textbf{Problema 61. H2 – Trovato da V2} \\
+Dove: Task Moderato, pagina ”personalizza visita” \\
+Cosa: Affidamento sulle conoscenze pregresse degli utenti. \\
+Perché: Il pubblico di riferimento è giovane, e non è detto che sia colto abbastanza da comprendere cosa alcuni termini gergali significhino. Per esempio, non è da sottovalutare l’eventualità che l’utente non sappia cosa sia il futurismo. Per colmare tali mancanze, è possibile pensare di arricchire la conoscenza dell’utente sul tema, facendo leva sulla curiosità ch’egli (utilizzando l’applicativo) probabilmente possiede. \\
+Severity: 2 \\
+\textbf{Risposta}: L’app non è concepita come strumento divulgativo, ma come supporto per la fruizione museale.
+
+
+
+
+\end{document}
