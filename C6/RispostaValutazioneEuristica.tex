@@ -258,7 +258,7 @@ Dove: pagina Percorsi. \\
 Cosa: la dimensione del tasto condividi è troppo piccola. \\
 Perché: il bottone “condividi” è troppo piccolo e, visto il posizionamento al di sopra di una card \\ interattiva, porta l’utente ad entrare nella sezione errata quando vorrebbe condividere il percorso. \\
 Severity: 2 \\
-\textbf{Risposta}: la dimensione del tasto “Condividi” è stata aumentata e il suo posizionamento è stato\\ ottimizzato per evitare interferenze con altri elementi interattivi, migliorando l’esperienza utente.\\
+\textbf{Risposta}: la dimensione del tasto “Condividi” e dell'area cliccabile è stata aumentata e il suo posizionamento è stato ottimizzato per evitare interferenze con altri elementi interattivi, migliorando l’esperienza utente.\\
 
 \noindent \textbf{Problema 30. H8 – Trovato da V1} \\
 Dove: pagina Valutazione post visita. \\
@@ -286,7 +286,7 @@ Dove: in ogni schermata dove vengono nominati AR e VR come strumenti utilizzabil
 Cosa: la mancanza di documentazione nelle schermate dove si possono selezionare AR e VR come \\supporti. \\
 Perché: la realtà virtuale e il visore a realtà aumentata sono tecnologie relativamente recenti, e quindi non conosciute da molti. Pertanto, sarebbe necessario avere a disposizione nelle schermate dell’applicazione informazioni riguardo a cosa sono queste tecnologie e al loro utilizzo, sia per rendere la scelta di utilizzare questi supporti più consapevole, sia per specificare in quale sia il loro ruolo dedicato nella visita al museo. \\
 Severity: 4 \\
-\textbf{Risposta}: abbiamo migliorato il processo di onboarding dell’app, fornendo all’utente indicazioni chiare e mirate sull’utilizzo delle tecnologie principali, incluse AR e VR, durante l’avvio dell’applicazione.\\
+\textbf{Risposta}: Il suggerimento di aggiungere una documentazione generale riguardo all'uso di AR e VR è stato respinto. La ragione di questa scelta è che l'uso di queste tecnologie dipende dall'adozione specifica da parte del museo e dal modo in cui vengono implementate per ciascuna opera. Poiché le modalità di utilizzo di AR e VR variano da museo a museo e da opera a opera, non sarebbe corretto generalizzare e fornire una descrizione possibilmente approssimativa delle loro funzionalità. \\
 
 \noindent \textbf{Problema 34. H1, H2, H5 – Trovato da V1, V4, V5, V6, V7} \\
 Dove: per il task “Modifica galleria”, pagina La mia galleria. \\
@@ -300,8 +300,8 @@ Dove: per il task “Modifica galleria”, nella pagina “Aggiungi alla galleri
 Cosa: la mancanza del titolo della galleria in cui si vogliono aggiungere nuove opere. \\
 Perché: entrare nella schermata dove puoi aggiungere opere senza avere il riferimento alla galleria precedente può confondere l’utente, costringendolo a tornare indietro e ripetere la procedura, oppure può non permettere di accorgersi di essere entrato in una galleria diversa per errore. \\
 Severity: 2 \\
-\textbf{Risposta}: abbiamo aggiunto il titolo della galleria in tutte le schermate di modifica, per ricordare all’utente quale galleria sta modificando e migliorare il contesto operativo.\\
-\newpage
+\textbf{Risposta}:  abbiamo aggiunto il titolo della galleria in tutte le schermate di modifica. In questo modo, l’utente può sempre identificare chiaramente quale galleria sta modificando, migliorando la comprensione del contesto operativo. Sebbene le azioni (come “Rimuovi” o “Aggiungi”) siano intuitive grazie ai pulsanti, il titolo della schermata ora specifica il nome della galleria su cui si sta lavorando, garantendo maggiore chiarezza e prevenendo errori. \\
+
 \noindent \textbf{Problema 36. H2 – Trovato da V1, V5, V6} \\
 Dove: per il task “Modifica galleria”, nella pagina “La mia galleria” \\
 Cosa: il nome della pagina si chiama “la mia galleria” ma al suo interno contiene più gallerie. Inoltre anche le gallerie condivise sono comunque gallerie: sarebbe più appropriato, a seconda dell’intento, utilizzare al posto di “Gallerie” il termine “Tutte” oppure “Private” \\
@@ -356,7 +356,7 @@ Dove: Per il task “Modifica galleria”, nella pagina “Aggiungi alla galleri
 Cosa: La mancanza di informazioni relative alle opere scannerizzate con il Codice QR e che ti vengono proposte da aggiungere, ad esempio in che museo l’opera è stata scannerizzata, il suo autore o informazioni relative al movimento artistico. \\
 Perché: L’utente potrebbe voler creare delle gallerie basandosi su criteri diversi dall’estetica dell’opera, e non avere a portata di mano le informazioni relative ai contenuti può risultare frustrante, per l’operazione macchinosa di dover cercare queste ultime in altre schermate. \\
 Severity: 4 \\
-\textbf{Risposta}: abbiamo deciso di implementare un overlay animato che si apre cliccando sull’icona associata a ogni opera, mostrando i dettagli rilevanti. Questa soluzione migliorerà l’accesso alle informazioni senza sovraccaricare l’interfaccia principale.\\
+\textbf{Risposta}: abbiamo implementato un overlay animato che si apre cliccando sull’icona associata a ogni opera, mostrando i dettagli rilevanti (l’utente, in fase di creazione dell’opera, potrà collegarsi direttamente alla schermata di informazioni). Questa soluzione migliorerà l’accesso alle informazioni senza sovraccaricare l’interfaccia principale.\\
 
 \noindent \textbf{Problema 44. H7 – Trovato da V1, V4, V7} \\
 Dove: Task complesso, Pagina crea galleria, aggiungi alla galleria, nuova galleria \\
@@ -405,7 +405,7 @@ Dove: Schermata galleria “Le mie preferite” \\
 Cosa: Mancanza tasto “elimina galleria” \\
 Perché: Esiste solo il tasto per rimuovere le opere ma non quello per eliminare l’intera galleria. Non è chiaro se è possibile eliminare una galleria rimuovendo tutte le opere all’interno o se una volta creata la galleria non si può più eliminare \\
 Severity: 4 \\
-\textbf{Risposta}: abbiamo aggiunto un tasto “Elimina galleria” accessibile una volta selezionata la specifica galleria, migliorando la gestione e la flessibilità.\\
+\textbf{Risposta}: abbiamo aggiunto un tasto “Elimina galleria” accessibile direttamente dalla schermata “My Gallery”. Questo permette agli utenti di eliminare l’intera galleria prima di entrare nella sua visualizzazione specifica, evitando così confusione tra i pulsanti destinati alla rimozione delle singole opere e quelli per l’eliminazione dell’intera galleria. Questa modifica migliora significativamente la gestione delle gallerie e aumenta la flessibilità d’uso dell’applicazione.\\
 
 \noindent \textbf{Problema 51. H7 - Trovato da V4} \\
 Dove: Per il task Complesso, nella pagina “Galleria” \\
